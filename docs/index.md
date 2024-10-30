@@ -12,12 +12,12 @@ This document would not have been possible without the help of multiple people. 
 
 ## Chapters
 - [**Original Document**](https://bit.ly/layout-doc-v2)
-- [**Basic Information**](chapters/preface.md)
+- [**Preface**](chapters/preface.md)
     - [Issues with the Qwerty layout](chapters/preface.md#issues-with-the-Qwerty-layout)
     - [Programs used to install a new layout](chapters/preface.md#programs-used-to-install-a-new-layout)
 
 - <details markdown="1">
-  <summary markdown="1"><strong>[Chapter : Typing](chapters/chapter1.md)</strong></summary>
+  <summary><strong><a href="chapters/chapter1.html">Chapter : Typing</a></strong></summary>
 
 	- [Typing basics (7 min)](chapters/chapter1.md#typing-basics)
 		- [Touch typing](chapters/chapter1.md#touch-typing)
@@ -44,7 +44,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter2.md">Chapter : Letter, bigram and trigram data</a></strong></summary>
+  <summary><strong><a href="chapters/chapter2.html">Chapter : Letter, bigram and trigram data</a></strong></summary>
 
 	- [English data (5 min)](chapters/chapter2.md#english-data)
 		- [English letter frequency](chapters/chapter2.md#english-letter-frequency)
@@ -63,7 +63,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter3.md">Chapter : Layout stats</a></strong></summary>
+  <summary><strong><a href="chapters/chapter3.html">Chapter : Layout stats</a></strong></summary>
 
 	- [SFBs, SFSs and distance (18 min)](chapters/chapter3.md#sfbs,-sfss-and-distance)
 		- [Same finger bigrams (SFBs)](chapters/chapter3.md#same-finger-bigrams-(sfbs))
@@ -138,7 +138,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter4.md">Chapter : How to make a layout</a></strong></summary>
+  <summary><strong><a href="chapters/chapter4.html">Chapter : How to make a layout</a></strong></summary>
 
 	- [Layout structure (8 min)](chapters/chapter4.md#layout-structure)
 		- [Letter stacks](chapters/chapter4.md#letter-stacks)
@@ -195,7 +195,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter5.md">Chapter : List of layouts plus their stats</a></strong></summary>
+  <summary><strong><a href="chapters/chapter5.html">Chapter : List of layouts plus their stats</a></strong></summary>
 
 	- [Layout subgroups (8 min)](chapters/chapter5.md#layout-subgroups)
 		- [Classifying layouts](chapters/chapter5.md#classifying-layouts)
@@ -282,7 +282,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter.md">Chapter : Keyboard columns analysis</a></strong></summary>
+  <summary><strong><a href="chapters/chapter.html">Chapter : Keyboard columns analysis</a></strong></summary>
 
 	- [Info given for each consonant](chapters/chapter6.md#info-given-for-each-consonant)
 		- [Pairs](chapters/chapter6.md#pairs)

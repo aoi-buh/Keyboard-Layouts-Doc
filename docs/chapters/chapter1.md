@@ -41,11 +41,12 @@ A useful tool for this is a word filter. The [MonkeyType](https://monkeytype.com
 By default, MonkeyType only uses the 200 most common English words to generate its tests. Before anything, we should click on **language** and select an expanded word set. English 1k includes the 1000 most common words in English, 5k includes the top 5000, etc...
 
 In the word filter menu, we will see the following two boxes:
+
 ![*MT Word Filter*](../assets/mt word filter.png)
+
 By adding a set of letters (separated by space) in include, and putting all the remaining letters in exclude, we can generate a typing test that uses only the letters we want. This in turn can be used to learn a layout in steps. 
 
-For example, take the MTGAP layout:
-[Mtgap](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/)
+For example, take the [MTGAP layout](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/):
 ```
 y p o u j  k d l c w
 i n e a ,  m h t s r
@@ -70,7 +71,7 @@ Remember to practice on a bigger word set than the default English option, as th
 
 ## Punctuation and shift
 
-By clicking on the **punctuation**** option, we add basic punctuation to the test: comma `,`, period `.`, apostrophe `‘`, colon `:`, semicolon `;`, hyphen `-`, slash `/`, question mark `?`, exclamation point `!`, quotation marks `“”` and parentheses `()`.
+By clicking on the **punctuation** option, we add basic punctuation to the test: comma `,`, period `.`, apostrophe `‘`, colon `:`, semicolon `;`, hyphen `-`, slash `/`, question mark `?`, exclamation point `!`, quotation marks `“”` and parentheses `()`.
 
 Enabling punctuation also forces us to practice using Shift (the key with an arrow pointing upwards) in order to capitalize letters. **The correct technique is to use the Shift key of the hand opposite to the letter we want to capitalize.** In other words, if we want to capitalize a letter on the left hand, we should use the right Shift key (and vice versa).
 
@@ -131,6 +132,7 @@ The physical layout of the keyboard varies a bit depending on the country. **In 
 ![*ANSI*](../assets/ansi.png)
 
 **ISO** (International):
+
 ![*ISO*](../assets/iso.png)
 
 **On ISO, the left shift key is split into two, while on ANSI it is not. This affects how angle mod is implemented on each.** The key difference is that, on ISO angle mod, the left pinky retains three keys just as with standard fingering. However, on ANSI angle mod the left pinky loses one key (now two total) while the left index finger gains one (now seven total). This will be better understood after seeing some practical angle mod examples.
