@@ -43,7 +43,7 @@ This document would not have been possible without the help of multiple people. 
 
   </details>
 
-- <details>
+- <details markdown="1">
   <summary><strong><a href="chapters/chapter2.md">Chapter : Letter, bigram and trigram data</a></strong></summary>
 
 	- [English data (5 min)](chapters/chapter2.md#english-data)
@@ -62,7 +62,7 @@ This document would not have been possible without the help of multiple people. 
 
   </details>
 
-- <details>
+- <details markdown="1">
   <summary><strong><a href="chapters/chapter3.md">Chapter : Layout stats</a></strong></summary>
 
 	- [SFBs, SFSs and distance (18 min)](chapters/chapter3.md#sfbs,-sfss-and-distance)
@@ -137,7 +137,7 @@ This document would not have been possible without the help of multiple people. 
 
   </details>
 
-- <details>
+- <details markdown="1">
   <summary><strong><a href="chapters/chapter4.md">Chapter : How to make a layout</a></strong></summary>
 
 	- [Layout structure (8 min)](chapters/chapter4.md#layout-structure)
@@ -194,7 +194,7 @@ This document would not have been possible without the help of multiple people. 
 
   </details>
 
-- <details>
+- <details markdown="1">
   <summary><strong><a href="chapters/chapter5.md">Chapter : List of layouts plus their stats</a></strong></summary>
 
 	- [Layout subgroups (8 min)](chapters/chapter5.md#layout-subgroups)
@@ -281,7 +281,7 @@ This document would not have been possible without the help of multiple people. 
 
   </details>
 
-- <details>
+- <details markdown="1">
   <summary><strong><a href="chapters/chapter.md">Chapter : Keyboard columns analysis</a></strong></summary>
 
 	- [Info given for each consonant](chapters/chapter6.md#info-given-for-each-consonant)
