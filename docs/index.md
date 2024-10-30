@@ -18,6 +18,7 @@ This document would not have been possible without the help of multiple people. 
 
 - <details>
   <summary><strong><a href="chapters/chapter1.md">Chapter : Typing</a></strong></summary>
+	<div markdown="1">
 
 	- [Typing basics (7 min)](chapters/chapter1.md#typing-basics)
 		- [Touch typing](chapters/chapter1.md#touch-typing)
@@ -41,6 +42,7 @@ This document would not have been possible without the help of multiple people. 
 			- [Learning an angled modded layout with standard fingering](chapters/chapter1.md#learning-an-angled-modded-layout-with-standard-fingering)
 		- [How to tell if a layout is angle modded or not](chapters/chapter1.md#how-to-tell-if-a-layout-is-angle-modded-or-not)
 
+	</div>
   </details>
 
 - <details>
