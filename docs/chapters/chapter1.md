@@ -42,7 +42,9 @@ By default, MonkeyType only uses the 200 most common English words to generate i
 
 In the word filter menu, we will see the following two boxes:
 ![*MT Word Filter*](assets/mt word filter.png)
-By adding a set of letters (separated by space) in include, and putting all the remaining letters in exclude, we can generate a typing test that uses only the letters we want. This in turn can be used to learn a layout in steps. For example, take the MTGAP layout:
+By adding a set of letters (separated by space) in include, and putting all the remaining letters in exclude, we can generate a typing test that uses only the letters we want. This in turn can be used to learn a layout in steps. 
+
+For example, take the MTGAP layout:
 [Mtgap](https://mathematicalmulticore.wordpress.com/the-keyboard-layout-project/)
 ```
 y p o u j  k d l c w
