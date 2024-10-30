@@ -17,7 +17,7 @@ This document would not have been possible without the help of multiple people. 
     - [Programs used to install a new layout](chapters/preface.md#programs-used-to-install-a-new-layout)
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter1.md">Chapter : Typing</a></strong></summary>
+  <summary markdown="1"><strong>[Chapter : Typing](chapters/chapter1.md)</strong></summary>
 
 	- [Typing basics (7 min)](chapters/chapter1.md#typing-basics)
 		- [Touch typing](chapters/chapter1.md#touch-typing)
