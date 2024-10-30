@@ -10,7 +10,7 @@ It's just a preface man.
 
 The layout that comes installed by default with most computers is called Qwerty. It is named after the six letters that are placed on the top left corner of the keyboard:
 
-![*The Qwerty Layout*](../assets/qwerty.png)
+![*The Qwerty Layout*](assets/qwerty.png)
 
 Qwerty is still used nowadays because it became the standard all the way back in the typewriter era. Having said that, Qwerty is a terrible layout, for many reasons:
 
