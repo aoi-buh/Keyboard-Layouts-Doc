@@ -40,6 +40,7 @@ This document would not have been possible without the help of multiple people. 
 			- [Learning a standard layout with angle mod fingering (angle cheat)](chapters/chapter1.md#learning-a-standard-layout-with-angle-mod-fingering-(angle-cheat))
 			- [Learning an angled modded layout with standard fingering](chapters/chapter1.md#learning-an-angled-modded-layout-with-standard-fingering)
 		- [How to tell if a layout is angle modded or not](chapters/chapter1.md#how-to-tell-if-a-layout-is-angle-modded-or-not)
+
   </details>
 
 - <details>
@@ -58,6 +59,7 @@ This document would not have been possible without the help of multiple people. 
 		- [Consonant only trigrams (excluding Y)](chapters/chapter2.md#consonant-only-trigrams-(excluding-y))
 		- [Top words with apostrophe](chapters/chapter2.md#top-words-with-apostrophe)
 		- [Top trigrams with apostrophe](chapters/chapter2.md#top-trigrams-with-apostrophe)
+
   </details>
 
 - <details>
@@ -68,7 +70,7 @@ This document would not have been possible without the help of multiple people. 
 		- [Calculating the distance between two keys](chapters/chapter3.md#calculating-the-distance-between-two-keys)
 		- [1U and 2U SFB](chapters/chapter3.md#1u-and-2u-sfb)
 		- [Diagonals](chapters/chapter3.md#diagonals)
-		- [Same finger Skipgrams (SFSs)](chapters/chapter3.md#same finger skipgrams (sfss))
+		- [Same finger Skipgrams (SFSs)](chapters/chapter3.md#same-finger-skipgrams-(sfss))
 		- [Distance on a layout](chapters/chapter3.md#distance-on-a-layout)
 		- [Decentivicing 2U SFBs and SFSs](chapters/chapter3.md#decentivicing-2u-sfbs-and-sfss)
 		- [Weights for each finger](chapters/chapter3.md#weights-for-each-finger)
@@ -88,7 +90,7 @@ This document would not have been possible without the help of multiple people. 
 		- [Sliding](chapters/chapter3.md#sliding)
 
 	- [Scissors (11 min)](chapters/chapter3.md#scissors)
-		- [Full scissors bigrams (FSBs)](chapters/chapter3.md#full scissors bigrams (fsbs))
+		- [Full scissors bigrams (FSBs)](chapters/chapter3.md#full-scissors-bigrams-(fsbs))
 		- [Full scissor skipgrams (FSSs)](chapters/chapter3.md#full-scissor-skipgrams-(fsss))
 		- [Half scissors bigrams (HSBs)](chapters/chapter3.md#half-scissors-bigrams-(hsbs))
 		- [Half scissor skipgrams (HSSs)](chapters/chapter3.md#half-scissor-skipgrams-(hsss))
@@ -130,9 +132,9 @@ This document would not have been possible without the help of multiple people. 
 		- [Roll comfort](chapters/chapter3.md#roll-comfort)
 		- [Which consonants lead to higher or lower redirects](chapters/chapter3.md#which-consonants-lead-to-higher-or-lower-redirects)
 		- [Common trigrams & redirects](chapters/chapter3.md#common-trigrams-&-redirects)
-		- [“Weak” redirects](chapters/chapter3.md
-“weak” redirects)
+		- [“Weak” redirects](chapters/chapter3.md#“weak”-redirects)
 		- [Common trigrams & 3rolls](chapters/chapter3.md#common-trigrams-&-3rolls)
+
   </details>
 
 - <details>
@@ -166,7 +168,7 @@ This document would not have been possible without the help of multiple people. 
 				- [Vowels + punctuation](chapters/chapter4.md#vowels-+-punctuation)
 				- [Consonants + punctuation](chapters/chapter4.md#consonants-+-punctuation)
 				- [Other](chapters/chapter4.md#other)
-		- [Punctuation setup examples](chapters/chapter4.md#punctuation setup examples)
+		- [Punctuation setup examples](chapters/chapter4.md#punctuation-setup-examples)
 		- [On what finger should the consonants on the vowel hand be?](chapters/chapter4.md#on-what-finger-should-the-consonants-on-the-vowel-hand-be?)
 			- [Consonant index (+ vowels on middle, ring and pinky)](chapters/chapter4.md#consonant-index-(+-vowels-on-middle,-ring-and-pinky))
 			- [Consonant pinky/ring (+ vowels on ring/pinky, middle and index)](chapters/chapter4.md#consonant-pinky/ring-(+-vowels-on-ring/pinky,-middle-and-index))
@@ -189,6 +191,7 @@ This document would not have been possible without the help of multiple people. 
 				- [LNM or LN + CS](chapters/chapter4.md#lnm-or-ln-+-cs)
 				- [LHM + CS](chapters/chapter4.md#lhm-+-cs)
 				- [LTM + CS](chapters/chapter4.md#ltm-+-cs)
+
   </details>
 
 - <details>
@@ -228,7 +231,7 @@ This document would not have been possible without the help of multiple people. 
 			- [NR + vowels](chapters/chapter5.md#nr-+-vowels)
 				- [CSTH](chapters/chapter5.md#csth)
 				- [STHC](chapters/chapter5.md#sthc)
-			- [N or NL + vowels](chapters/chapter5.md#n or nl + vowels)
+			- [N or NL + vowels](chapters/chapter5.md#n-or-nl-+-vowels)
 				- [RSTH](chapters/chapter5.md#rsth)
 				- [TRSH](chapters/chapter5.md#trsh)
 			- [LRW + vowels](chapters/chapter5.md#lrw-+-vowels)
@@ -242,7 +245,7 @@ This document would not have been possible without the help of multiple people. 
 		- [Layout arrangements for high roll - mid redirects](chapters/chapter5.md#layout-arrangements-for-high-roll---mid-redirects)
 			- [NH + vowels](chapters/chapter5.md#nh-+-vowels)
 				- [CRST](chapters/chapter5.md#crst)
-				- [STRD / SRTD / SRTC](chapters/chapter5.md#strd / srtd / srtc)
+				- [STRD / SRTD / SRTC](chapters/chapter5.md#strd-/-srtd-/-srtc)
 			- [HM or HML + vowels](chapters/chapter5.md#hm-or-hml-+-vowels)
 				- [NRTS / RNTS](chapters/chapter5.md#nrts-/-rnts)
 				- [SNTC / SNTD / STND](chapters/chapter5.md#sntc-/-sntd-/-stnd)
@@ -275,6 +278,7 @@ This document would not have been possible without the help of multiple people. 
 			- [S + vowels](chapters/chapter5.md#s-+-vowels)
 			- [T + vowels](chapters/chapter5.md#t-+-vowels)
 			- [Other](chapters/chapter5.md#other)
+
   </details>
 
 - <details>
@@ -313,4 +317,5 @@ This document would not have been possible without the help of multiple people. 
 		- [Letter B](chapters/chapter6.md#letter-b)
 		- [Letter V](chapters/chapter6.md#letter-v)
 		- [Letter K](chapters/chapter6.md#letter-k)
+
   </details>
