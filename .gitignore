@@ -1,1 +1,10 @@
-image/
+images/
+
+docs/404.html
+docs/_config.yml
+docs/_posts/
+docs/_site/
+docs/about.markdown
+docs/index.markdown
+docs/Gemfile
+docs/Gemfile.lock

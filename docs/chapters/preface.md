@@ -14,10 +14,10 @@ The layout that comes installed by default with most computers is called [Qwerty
 Qwerty is still used nowadays because it became the standard all the way back in the typewriter era. Having said that, Qwerty is a terrible layout, for many reasons:
 
 - The most common letters (shown in orange) are scattered around the keyboard.
-- Thousands of English words are typed with a single hand, while the other hand sits still (e.g. `afterwards`, `average`, `garbage`, `million`, `monopoly`, `opinion.`..).
-- There are many words where a single finger types lots of letters (e.g. `December`, `science`, `decided`, `community`, `minimum`, `anonymous.`..).
-- Similarly, numerous words are typed by alternating only two fingers for the most part (e.g. `return`, `thought`, `monthly`, `bought`, `amendment`, `Sydney`, `burn.`..).
-- There are instances where one finger has to press two far away keys in a row, forcing that finger to make a big jump (bigrams like `ec`, `br`, `un`, `ny`, `um`, `my.`..).
+- Thousands of English words are typed with a single hand, while the other hand sits still (e.g. `afterwards`, `average`, `garbage`, `million`, `monopoly`, `opinion`...).
+- There are many words where a single finger types lots of letters (e.g. `December`, `science`, `decided`, `community`, `minimum`, `anonymous`...).
+- Similarly, numerous words are typed by alternating only two fingers for the most part (e.g. `return`, `thought`, `monthly`, `bought`, `amendment`, `Sydney`, `burn`...).
+- There are instances where one finger has to press two far away keys in a row, forcing that finger to make a big jump (bigrams like `ec`, `br`, `un`, `ny`, `um`, `my`...).
 - There are uncomfortable patterns where one finger goes down, but an adjacent finger goes up (e.g. the `cr` bigram, where the index presses `R` and the middle `C`).
 - Finally, there are bigrams that require a lateral wrist motion (e.g. `eg` or `eb`).
 

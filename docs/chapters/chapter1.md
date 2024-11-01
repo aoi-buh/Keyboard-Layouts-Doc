@@ -42,7 +42,7 @@ By default, MonkeyType only uses the 200 most common English words to generate i
 
 In the word filter menu, we will see the following two boxes:
 
-![*MT Word Filter*](../assets/mt word filter.png)
+<img src="../assets/mt word filter.png" alt="*MT Word Filter*" style="width: 50%;" />
 
 By adding a set of letters (separated by space) in include, and putting all the remaining letters in exclude, we can generate a typing test that uses only the letters we want. This in turn can be used to learn a layout in steps. 
 
@@ -55,7 +55,7 @@ q z ' . :  b f g v x
 
 Let’s say we wanted to practice the home row. Firstly, we select a word set like English 1k. Secondly, we add all of MTGAP’s home row letters to the include box, and put all the remaining letters in exclude. Finally, we click **set**, resulting in the following word list:
 
-![*Mtgap Wordlist*](../assets/mtgap word list.png)
+<img src="../assets/mtgap word list.png" alt="*Mtgap Wordlist*" style="width: 200%;" />
 
 All there is left to do is click on **random** (to randomize the order in which the above words will appear in the typing test) and select a duration for the test (either a number of words or of second). We can now practice MTGAP’s home row while typing actual words.
 
@@ -129,11 +129,11 @@ The physical layout of the keyboard varies a bit depending on the country. **In 
 
 **ANSI** (American):
 
-![*ANSI*](../assets/ansi.png)
+<img src="../assets/ansi.png" alt="*ANSI*" style="width: 80%;" />
 
 **ISO** (International):
 
-![*ISO*](../assets/iso.png)
+<img src="../assets/iso.png" alt="*ISO*" style="width: 80%;" />
 
 **On ISO, the left shift key is split into two, while on ANSI it is not. This affects how angle mod is implemented on each.** The key difference is that, on ISO angle mod, the left pinky retains three keys just as with standard fingering. However, on ANSI angle mod the left pinky loses one key (now two total) while the left index finger gains one (now seven total). This will be better understood after seeing some practical angle mod examples.
 
@@ -253,6 +253,6 @@ For angle mod, the bottom row will be shifted one unit to the right. So, the lef
 
 Sometimes we will use images (rather than text) to showcase a layout. In those cases, we will specify if the layout is angle modded or not to avoid any confusion. Regardless, as you become more familiar with layouts you will be able to easily tell if a layout is angle modded or not simply by glancing at the layout’s columns. For example:
 
-![*Angled Noctum*](../assets/noctum angle2.png)
+<img src="../assets/noctum angle2.png" alt="*Angled Noctum*" style="width: 70%;" />
 
 The layout above has obviously been angle modded already. We can tell because its columns would not make sense otherwise. If we assume angle mod, we get a `BN` pinky, a `FSV` ring, a `DTM` middle and a `LRHZKXQ` index. Those are sensible columns on multiple fronts. For once, they cause negligible [same finger bigrams (SFBs)](chapters/chapter3.md#same-finger-bigrams-(sfbs)). Additionally, the weaker fingers have a low load (a `BN` pinky and a `FSV` ring) while the stronger fingers work harder. Instead, if we assumed that the layout above was not angle modded, we would get nonsensical columns (a `BNV` pinky, a `FSM` ring, a `DTH` middle and a `LRXZKQ` index).

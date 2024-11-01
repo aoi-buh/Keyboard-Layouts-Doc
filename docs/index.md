@@ -7,8 +7,8 @@ title: Home
 This is a port of the [keyboard layout doc V2](https://bit.ly/layout-doc-v2) originally made by [Ec0vid](https://github.com/ec0vid).
 Ported by [me](https://github.com/aoi-buh).
 
-## Special Thanks (from eco)
-This document would not have been possible without the help of multiple people. After all, most of my knowledge of layouts is the result of discussing layouts with them. So, I would like to thank Oxey, ClemenPine, StronglyTyped, Brys, Semi, Eve, Lela, Smudge, Heart, Whorf, Flarefin, Tanamr, Kyrime, Colby, Desshaw... among others.
+## Special Thanks (from Ec0)
+This document would not have been possible without the help of multiple people. After all, most of my knowledge of layouts is the result of discussing layouts with them. So, I would like to thank [Oxey](https://oxey.dev/), ClemenPine, StronglyTyped, [Brys](https://github.com/GalileoBlues/), Semi, Eve, Lela, Smudge, Heart, Whorf, Flarefin, Tanamr, Kyrime, Colby, Desshaw... among others.
 
 ## Chapters
 - [**Original Document**](https://bit.ly/layout-doc-v2)
@@ -17,7 +17,7 @@ This document would not have been possible without the help of multiple people. 
     - [Programs used to install a new layout](chapters/preface.md#programs-used-to-install-a-new-layout)
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter1.html">Chapter : Typing</a></strong></summary>
+  <summary><strong><a href="chapters/chapter1.html">Chapter 1: Typing</a></strong></summary>
 
 	- [Typing basics (7 min)](chapters/chapter1.md#typing-basics)
 		- [Touch typing](chapters/chapter1.md#touch-typing)
@@ -44,7 +44,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter2.html">Chapter : Letter, bigram and trigram data</a></strong></summary>
+  <summary><strong><a href="chapters/chapter2.html">Chapter 2: Letter, bigram and trigram data</a></strong></summary>
 
 	- [English data (5 min)](chapters/chapter2.md#english-data)
 		- [English letter frequency](chapters/chapter2.md#english-letter-frequency)
@@ -63,7 +63,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter3.html">Chapter : Layout stats</a></strong></summary>
+  <summary><strong><a href="chapters/chapter3.html">Chapter 3: Layout stats</a></strong></summary>
 
 	- [SFBs, SFSs and distance (18 min)](chapters/chapter3.md#sfbs,-sfss-and-distance)
 		- [Same finger bigrams (SFBs)](chapters/chapter3.md#same-finger-bigrams-(sfbs))
@@ -138,7 +138,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter4.html">Chapter : How to make a layout</a></strong></summary>
+  <summary><strong><a href="chapters/chapter4.html">Chapter 4: How to make a layout</a></strong></summary>
 
 	- [Layout structure (8 min)](chapters/chapter4.md#layout-structure)
 		- [Letter stacks](chapters/chapter4.md#letter-stacks)
@@ -195,7 +195,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter5.html">Chapter : List of layouts plus their stats</a></strong></summary>
+  <summary><strong><a href="chapters/chapter5.html">Chapter 5: List of layouts plus their stats</a></strong></summary>
 
 	- [Layout subgroups (8 min)](chapters/chapter5.md#layout-subgroups)
 		- [Classifying layouts](chapters/chapter5.md#classifying-layouts)
@@ -282,7 +282,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary><strong><a href="chapters/chapter.html">Chapter : Keyboard columns analysis</a></strong></summary>
+  <summary><strong><a href="chapters/chapter.html">Chapter 6: Keyboard columns analysis</a></strong></summary>
 
 	- [Info given for each consonant](chapters/chapter6.md#info-given-for-each-consonant)
 		- [Pairs](chapters/chapter6.md#pairs)
