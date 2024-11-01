@@ -253,6 +253,6 @@ For angle mod, the bottom row will be shifted one unit to the right. So, the lef
 
 Sometimes we will use images (rather than text) to showcase a layout. In those cases, we will specify if the layout is angle modded or not to avoid any confusion. Regardless, as you become more familiar with layouts you will be able to easily tell if a layout is angle modded or not simply by glancing at the layout’s columns. For example:
 
-<img src="../assets/noctum angle2.png" alt="*Angled Noctum*" style="width: 60%;" />
+<img src="../assets/noctum angle2.png" alt="*Angled Noctum*" style="width: 75%;" />
 
 The layout above has obviously been angle modded already. We can tell because its columns would not make sense otherwise. If we assume angle mod, we get a `BN` pinky, a `FSV` ring, a `DTM` middle and a `LRHZKXQ` index. Those are sensible columns on multiple fronts. For once, they cause negligible [same finger bigrams (SFBs)](chapters/chapter3.md#same-finger-bigrams-(sfbs)). Additionally, the weaker fingers have a low load (a `BN` pinky and a `FSV` ring) while the stronger fingers work harder. Instead, if we assumed that the layout above was not angle modded, we would get nonsensical columns (a `BNV` pinky, a `FSM` ring, a `DTH` middle and a `LRXZKQ` index).
