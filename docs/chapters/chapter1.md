@@ -42,7 +42,7 @@ By default, MonkeyType only uses the 200 most common English words to generate i
 
 In the word filter menu, we will see the following two boxes:
 
-<img src="../assets/mt word filter.png" alt="*MT Word Filter*" style="width: 50%;" />
+<img src="../assets/mt word filter.png" alt="*MT Word Filter*" style="width: 40%;" />
 
 By adding a set of letters (separated by space) in include, and putting all the remaining letters in exclude, we can generate a typing test that uses only the letters we want. This in turn can be used to learn a layout in steps. 
 
@@ -129,11 +129,11 @@ The physical layout of the keyboard varies a bit depending on the country. **In 
 
 **ANSI** (American):
 
-<img src="../assets/ansi.png" alt="*ANSI*" style="width: 80%;" />
+<img src="../assets/ansi.png" alt="*ANSI*" style="width: 60%;" />
 
 **ISO** (International):
 
-<img src="../assets/iso.png" alt="*ISO*" style="width: 80%;" />
+<img src="../assets/iso.png" alt="*ISO*" style="width: 60%;" />
 
 **On ISO, the left shift key is split into two, while on ANSI it is not. This affects how angle mod is implemented on each.** The key difference is that, on ISO angle mod, the left pinky retains three keys just as with standard fingering. However, on ANSI angle mod the left pinky loses one key (now two total) while the left index finger gains one (now seven total). This will be better understood after seeing some practical angle mod examples.
 
@@ -253,6 +253,6 @@ For angle mod, the bottom row will be shifted one unit to the right. So, the lef
 
 Sometimes we will use images (rather than text) to showcase a layout. In those cases, we will specify if the layout is angle modded or not to avoid any confusion. Regardless, as you become more familiar with layouts you will be able to easily tell if a layout is angle modded or not simply by glancing at the layout’s columns. For example:
 
-<img src="../assets/noctum angle2.png" alt="*Angled Noctum*" style="width: 70%;" />
+<img src="../assets/noctum angle2.png" alt="*Angled Noctum*" style="width: 60%;" />
 
 The layout above has obviously been angle modded already. We can tell because its columns would not make sense otherwise. If we assume angle mod, we get a `BN` pinky, a `FSV` ring, a `DTM` middle and a `LRHZKXQ` index. Those are sensible columns on multiple fronts. For once, they cause negligible [same finger bigrams (SFBs)](chapters/chapter3.md#same-finger-bigrams-(sfbs)). Additionally, the weaker fingers have a low load (a `BN` pinky and a `FSV` ring) while the stronger fingers work harder. Instead, if we assumed that the layout above was not angle modded, we would get nonsensical columns (a `BNV` pinky, a `FSM` ring, a `DTH` middle and a `LRXZKQ` index).
