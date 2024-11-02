@@ -18,6 +18,7 @@ title: "Chapter 2"
 	 ┌┬┬─┬┐
 	 decade
 	 ```
+
 </div>
 <div markdown='1'> 
 
@@ -41,7 +42,7 @@ Another thing to keep in mind is that **lowering SFBs past a certain point will 
 
 Let’s say we want to know the distance for Qwerty `RG` (we are using Qwerty as a method to refer to the different keys on the keyboard):
 
-![*Qwerty RG distance*](../assets/qwerty rg distance.pngy)
+![*Qwerty RG distance*](../assets/qwerty rg distance.png)
 
 We can obtain the length of the red line by using [Pythagoras' theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem). All we need to know is the vertical distance between the two keys (the green line) and the horizontal distance (the blue line).
 
