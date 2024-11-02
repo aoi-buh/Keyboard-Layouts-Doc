@@ -12,11 +12,11 @@ Note: the bigram and trigram tables in the following sections were created using
 ## English letter frequency
 
 ```mermaid
-xychart-beta horizontal
-    title "English Letter Frequency"
-    x-axis [e, t, o, a, i, n, s, r, h, l, d, u, y, m, w, c, g, f, p, b, v, k, j, x, z, q]
-    y-axis "Frequency (%)" 0 --> 20
-    bar [11.50, 8.68, 7.63, 7.19, 6.61, 6.51, 5.66, 5.15, 5.04, 3.94, 3.47, 3.02, 2.48, 2.46, 2.25, 2.16, 2.00, 1.94, 1.52, 1.45, 1.04, 0.92, 0.15, 0.12, 0.07, 0.07]
+  xychart-beta horizontal
+      title "English Letter Frequency"
+      x-axis [e, t, o, a, i, n, s, r, h, l, d, u, y, m, w, c, g, f, p, b, v, k, j, x, z, q]
+      y-axis "Frequency (%)" 0 --> 20
+      bar [11.50, 8.68, 7.63, 7.19, 6.61, 6.51, 5.66, 5.15, 5.04, 3.94, 3.47, 3.02, 2.48, 2.46, 2.25, 2.16, 2.00, 1.94, 1.52, 1.45, 1.04, 0.92, 0.15, 0.12, 0.07, 0.07]
 ```
 
 As one would expect, the vowels `E`, `O`, `A`, `I` are very frequent, while the most common consonants are `T`, `N`, `S`, `R`. These 8 would be the most important letters. Afterwards we would have the letter `H`, followed by `L`, `D`, and then the vowel `U`.
@@ -114,8 +114,6 @@ Vowel bigrams amount to 5.267% of bigrams.
 Consonant bigrams amount to about 20.824% of bigrams.
 
 ## Consonant + vowel bigrams
-
-Bigrams under 0.175% frequency are omitted. As expected, less common consonants have fewer bigrams that make the cut. In fact, Q, J and Z have none. The top 50 are highlighted:
 
 <table markdown='1'>
 	<tr>
@@ -452,6 +450,9 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | oq     | 0.00% |
 | qi     | 0.00% |
 | uq     | 0.00% |
+| qa     | 0     |
+| qe     | 0     |
+| qo     | 0     |
 
 </td></tr>
 </table>
@@ -522,16 +523,16 @@ Double letters amount to about 2.603% of bigrams.
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| it's | 0.35 | didn't | 0.06 | what's | 0.03 | aren't | 0.02 | world's | 0.01 |
-| don't | 0.32 | they're | 0.06 | we've | 0.03 | they'll | 0.02 | we'd | 0.01 |
-| i'm | 0.30 | you've | 0.06 | we'll | 0.03 | haven't | 0.01 | he'll | 0.01 |
-| you're | 0.22 | he's | 0.05 | wouldn't | 0.03 | man's | 0.01 | they'd | 0.01 |
-| that's | 0.14 | you'll | 0.05 | ain't | 0.02 | one's | 0.01 | people's | 0.01 |
-| can't | 0.12 | doesn't | 0.05 | couldn't | 0.02 | 'em | 0.01 | hadn't | 0.01 |
-| i've | 0.11 | won't | 0.05 | let's | 0.02 | who's | 0.01 | weren't | 0.01 |
-| there's | 0.10 | i'd | 0.05 | wasn't | 0.02 | he'd | 0.01 | it'll | 0.01 |
-| i'll | 0.10 | 'cause | 0.04 | you'd | 0.02 | they've | 0.01 | else's | 0.01 |
-| we're | 0.07 | isn't | 0.04 | she's | 0.02 | shouldn't | 0.01 | here's | 0.00 |
+| it's | 0.35% | didn't | 0.06% | what's | 0.03% | aren't | 0.02% | world's | 0.01% |
+| don't | 0.32% | they're | 0.06% | we've | 0.03% | they'll | 0.02% | we'd | 0.01% |
+| i'm | 0.30% | you've | 0.06% | we'll | 0.03% | haven't | 0.01% | he'll | 0.01% |
+| you're | 0.22% | he's | 0.05% | wouldn't | 0.03% | man's | 0.01% | they'd | 0.01% |
+| that's | 0.14% | you'll | 0.05% | ain't | 0.02% | one's | 0.01% | people's | 0.01% |
+| can't | 0.12% | doesn't | 0.05% | couldn't | 0.02% | 'em | 0.01% | hadn't | 0.01% |
+| i've | 0.11% | won't | 0.05% | let's | 0.02% | who's | 0.01% | weren't | 0.01% |
+| there's | 0.10% | i'd | 0.05% | wasn't | 0.02% | he'd | 0.01% | it'll | 0.01% |
+| i'll | 0.10% | 'cause | 0.04% | you'd | 0.02% | they've | 0.01% | else's | 0.01% |
+| we're | 0.07% | isn't | 0.04% | she's | 0.02% | shouldn't | 0.01% | here's | 0.00% |
 
 The tables above was made using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&) parsed seperately.
 
@@ -539,14 +540,14 @@ The tables above was made using the [Monkeyracer corpus](https://cdn.discordapp.
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- |
-| n't   | 0.31  | 'll   | 0.08  | he'   | 0.04  |
-| t's   | 0.22  | at'   | 0.07  | in'   | 0.03  |
-| on'   | 0.15  | an'   | 0.06  | e'r   | 0.03  |
-| it'   | 0.14  | we'   | 0.05  | y'r   | 0.03  |
-| 're   | 0.14  | dn'   | 0.05  | u'v   | 0.02  |
-| ou'   | 0.14  | re'   | 0.05  | u'l   | 0.02  |
-| i'm   | 0.12  | i'v   | 0.04  | i'd   | 0.02  |
-| e's   | 0.10  | sn'   | 0.04  | n's   | 0.02  |
-| 've   | 0.09  | i'l   | 0.04  | en'   | 0.02  |
-| u'r   | 0.09  | ey'   | 0.04  | r's   | 0.02  |
+| n't   | 0.31% | 'll   | 0.08% | he'   | 0.04% |
+| t's   | 0.22% | at'   | 0.07% | in'   | 0.03% |
+| on'   | 0.15% | an'   | 0.06% | e'r   | 0.03% |
+| it'   | 0.14% | we'   | 0.05% | y'r   | 0.03% |
+| 're   | 0.14% | dn'   | 0.05% | u'v   | 0.02% |
+| ou'   | 0.14% | re'   | 0.05% | u'l   | 0.02% |
+| i'm   | 0.12% | i'v   | 0.04% | i'd   | 0.02% |
+| e's   | 0.10% | sn'   | 0.04% | n's   | 0.02% |
+| 've   | 0.09% | i'l   | 0.04% | en'   | 0.02% |
+| u'r   | 0.09% | ey'   | 0.04% | r's   | 0.02% |
 
