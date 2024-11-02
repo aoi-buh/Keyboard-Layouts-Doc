@@ -11,13 +11,7 @@ Note: the bigram and trigram tables in the following sections were created using
 
 ## English letter frequency
 
-<div class='mermaid'>
-xychart-beta horizontal
-    title "English Letter Frequency"
-    x-axis [e, t, o, a, i, n, s, r, h, l, d, u, y, m, w, c, g, f, p, b, v, k, j, x, z, q]
-    y-axis "Frequency (%)" 0 --> 20
-    bar [11.50, 8.68, 7.63, 7.19, 6.61, 6.51, 5.66, 5.15, 5.04, 3.94, 3.47, 3.02, 2.48, 2.46, 2.25, 2.16, 2.00, 1.94, 1.52, 1.45, 1.04, 0.92, 0.15, 0.12, 0.07, 0.07]
-</div>
+![*English Letter Frequencies*](../assets/english letter frequencies.svg)
 
 As one would expect, the vowels `E`, `O`, `A`, `I` are very frequent, while the most common consonants are `T`, `N`, `S`, `R`. These 8 would be the most important letters. Afterwards we would have the letter `H`, followed by `L`, `D`, and then the vowel `U`.
 
