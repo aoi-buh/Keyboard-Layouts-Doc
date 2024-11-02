@@ -156,7 +156,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ta     | 0.39% |
 | tu     | 0.17% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -171,7 +171,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | na     | 0.19% |
 | nu     | 0.04% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -186,7 +186,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | sa     | 0.22% |
 | su     | 0.19% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -201,7 +201,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ir     | 0.25% |
 | ru     | 0.13% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -216,7 +216,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | uh     | 0.00% |
 | ih     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -231,7 +231,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ol     | 0.25% |
 | lu     | 0.08% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -246,7 +246,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | du     | 0.05% |
 | ud     | 0.05% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -261,7 +261,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | yu     | 0.00% |
 | iy     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -276,7 +276,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | um     | 0.10% |
 | mu     | 0.10% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -291,7 +291,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | iw     | 0.00% |
 | uw     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -306,7 +306,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | oc     | 0.08% |
 | cu     | 0.08% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -321,7 +321,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | eg     | 0.06% |
 | og     | 0.06% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -336,7 +336,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | af     | 0.05% |
 | uf     | 0.02% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -351,7 +351,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | pu     | 0.07% |
 | ip     | 0.05% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -366,7 +366,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ub     | 0.04% |
 | eb     | 0.02% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -381,7 +381,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | vu     | 0.00% |
 | uv     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -396,7 +396,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ko     | 0.00% |
 | uk     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -411,7 +411,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | ij     | 0.00% |
 | uj     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -426,7 +426,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | xu     | 0.00% |
 | xo     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
@@ -441,7 +441,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 | uz     | 0.00% |
 | zu     | 0.00% |
 
-</td><td>
+</td><td markdown='1'>
 
 | bigram | freq  |
 | ------ | ----- |
