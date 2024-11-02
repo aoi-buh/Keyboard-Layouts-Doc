@@ -47,11 +47,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown="1">
-
-	[Chapter 3: English data (5 min)](chapters/chapter3.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter3.html">Chapter 3: English data (5 min)</a></strong></summary>
 
 	- [English letter frequency](chapters/chapter3.md#english-letter-frequency)
 	- [Top 50 bigrams](chapters/chapter3.md#top-50-bigrams)
