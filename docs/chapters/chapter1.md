@@ -4,7 +4,6 @@ title: "Chapter 1"
 ---
 
 # Chapter 1: Touch typing (7 min)
-This chapter goes over some typing basics and also looks at angle mod in detail. If you are already familiar with those concepts you can probably skip, or quickly scroll by, this part.
 
 Touch typing refers to developing the necessary muscle memory to be able to type without looking at the keyboard and without consciously thinking about it.
 
