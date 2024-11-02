@@ -117,18 +117,344 @@ Consonant bigrams amount to about 20.824% of bigrams.
 
 Bigrams under 0.175% frequency are omitted. As expected, less common consonants have fewer bigrams that make the cut. In fact, Q, J and Z have none. The top 50 are highlighted:
 
-| T  | freq  | N  | freq  | S  | freq  | R  | freq  | H  | freq  | L  | freq  | D  | freq  | Y  | freq  | M  | freq  | W  | freq  | C  | freq  | G  | freq  | F  | freq  | P  | freq  | B  | freq  | V  | freq  | K  | freq  | J  | freq  | X  | freq  | Z  | freq  | Q  | freq  |
-| -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- |
-| at | 1.26% | in | 2.27% | es | 0.97% | er | 1.76% | he | 2.79% | al | 0.79% | ed | 0.76% | yo | 0.98% | me | 0.93% | ow | 0.54% | co | 0.50% | ge | 0.34% | of | 0.71% | pe | 0.40% | be | 0.66% | ve | 1.05% | ke | 0.39% | ju | 0.11% | ex | 0.12% | ze | 0.04% | qu | 0.08% |
-| to | 1.11% | an | 1.93% | is | 0.94% | re | 1.67% | ha | 1.22% | le | 0.76% | de | 0.54% | ay | 0.37% | om | 0.54% | wa | 0.53% | ca | 0.49% | ig | 0.27% | fo | 0.40% | pa | 0.21% | bu | 0.26% | ev | 0.37% | ak | 0.19% | jo | 0.04% | xi | 0.03% | iz | 0.04% | eq | 0.02% |
-| it | 1.09% | on | 1.34% | se | 0.80% | or | 1.04% | hi | 0.84% | li | 0.67% | do | 0.39% | ey | 0.23% | ma | 0.49% | we | 0.47% | ce | 0.43% | go | 0.26% | if | 0.29% | po | 0.21% | bo | 0.23% | av | 0.26% | ki | 0.16% | je | 0.02% | ix | 0.02% | az | 0.02% | iq | 0.00% |
-| te | 0.79% | en | 1.11% | as | 0.68% | ar | 0.91% | ho | 0.54% | el | 0.51% | ad | 0.31% | ye | 0.11% | mo | 0.31% | wi | 0.41% | ac | 0.35% | ag | 0.16% | fe | 0.29% | op | 0.20% | ab | 0.19% | iv | 0.22% | ik | 0.13% | ja | 0.01% | xa | 0.01% | za | 0.01% | aq | 0.00% |
-| ti | 0.70% | ne | 0.74% | us | 0.48% | ur | 0.56% | hu | 0.07% | lo | 0.44% | di | 0.30% | yi | 0.05% | im | 0.31% | wo | 0.31% | ic | 0.34% | ug | 0.15% | fi | 0.23% | ap | 0.15% | ba | 0.15% | ov | 0.18% | ok | 0.11% | aj | 0.01% | ax | 0.01% | zi | 0.01% | oq | 0.00% |
-| ut | 0.52% | no | 0.65% | so | 0.46% | ro | 0.54% | eh | 0.02% | il | 0.42% | id | 0.26% | oy | 0.04% | em | 0.30% | ew | 0.09% | ec | 0.30% | gi | 0.13% | fa | 0.17% | up | 0.14% | bi | 0.09% | vi | 0.16% | ek | 0.02% | ej | 0.00% | xe | 0.01% | zo | 0.01% | qi | 0.00% |
-| ot | 0.47% | un | 0.36% | si | 0.34% | ri | 0.49% | oh | 0.02% | la | 0.32% | od | 0.18% | uy | 0.02% | am | 0.25% | aw | 0.07% | ci | 0.14% | ga | 0.11% | ef | 0.11% | ep | 0.12% | ob | 0.07% | va | 0.06% | ka | 0.02% | ji | 0.00% | ox | 0.01% | ez | 0.01% | uq | 0.00% |
-| et | 0.47% | ni | 0.23% | os | 0.24% | ra | 0.38% | ah | 0.02% | ul | 0.32% | da | 0.17% | ya | 0.01% | mi | 0.24% | wu | 0.00% | uc | 0.12% | gu | 0.07% | fu | 0.09% | pi | 0.11% | ib | 0.06% | vo | 0.05% | ku | 0.00% | oj | 0.00% | ux | 0.00% | oz | 0.00% |
-| ta | 0.39% | na | 0.19% | sa | 0.22% | ir | 0.25% | uh | 0.00% | ol | 0.25% | du | 0.05% | yu | 0.00% | um | 0.10% | iw | 0.00% | oc | 0.08% | eg | 0.06% | af | 0.05% | pu | 0.07% | ub | 0.04% | vu | 0.00% | ko | 0.00% | ij | 0.00% | xu | 0.00% | uz | 0.00% |
-| tu | 0.17% | nu | 0.04% | su | 0.19% | ru | 0.13% | ih | 0.00% | lu | 0.08% | ud | 0.05% | iy | 0.00% | mu | 0.10% | uw | 0.00% | cu | 0.08% | og | 0.06% | uf | 0.02% | ip | 0.05% | eb | 0.02% | uv | 0.00% | uk | 0.00% | uj | 0.00% | xo | 0.00% | zu | 0.00% |
+<table markdown='1'>
+	<tr>
+		<th>T + vowels</th>
+		<th>N + vowels</th>
+		<th>S + vowels</th>
+		<th>R + vowels</th>
+		<th>H + vowels</th>
+		<th>L + vowels</th>
+		<th>D + vowels</th>
+		<th>Y + vowels</th>
+		<th>M + vowels</th>
+		<th>W + vowels</th>
+		<th>C + vowels</th>
+		<th>G + vowels</th>
+		<th>F + vowels</th>
+		<th>P + vowels</th>
+		<th>B + vowels</th>
+		<th>V + vowels</th>
+		<th>K + vowels</th>
+		<th>J + vowels</th>
+		<th>X + vowels</th>
+		<th>Z + vowels</th>
+		<th>Q + vowels</th>
+	</tr>
+	<tr><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| at     | 1.26% |
+	| to     | 1.11% |
+	| it     | 1.09% |
+	| te     | 0.79% |
+	| ti     | 0.70% |
+	| ut     | 0.52% |
+	| ot     | 0.47% |
+	| et     | 0.47% |
+	| ta     | 0.39% |
+	| tu     | 0.17% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| in     | 2.27% |
+	| an     | 1.93% |
+	| on     | 1.34% |
+	| en     | 1.11% |
+	| ne     | 0.74% |
+	| no     | 0.65% |
+	| un     | 0.36% |
+	| ni     | 0.23% |
+	| na     | 0.19% |
+	| nu     | 0.04% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| es     | 0.97% |
+	| is     | 0.94% |
+	| se     | 0.80% |
+	| as     | 0.68% |
+	| us     | 0.48% |
+	| so     | 0.46% |
+	| si     | 0.34% |
+	| os     | 0.24% |
+	| sa     | 0.22% |
+	| su     | 0.19% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| er     | 1.76% |
+	| re     | 1.67% |
+	| or     | 1.04% |
+	| ar     | 0.91% |
+	| ur     | 0.56% |
+	| ro     | 0.54% |
+	| ri     | 0.49% |
+	| ra     | 0.38% |
+	| ir     | 0.25% |
+	| ru     | 0.13% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| he     | 2.79% |
+	| ha     | 1.22% |
+	| hi     | 0.84% |
+	| ho     | 0.54% |
+	| hu     | 0.07% |
+	| eh     | 0.02% |
+	| oh     | 0.02% |
+	| ah     | 0.02% |
+	| uh     | 0.00% |
+	| ih     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| al     | 0.79% |
+	| le     | 0.76% |
+	| li     | 0.67% |
+	| el     | 0.51% |
+	| lo     | 0.44% |
+	| il     | 0.42% |
+	| la     | 0.32% |
+	| ul     | 0.32% |
+	| ol     | 0.25% |
+	| lu     | 0.08% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ed     | 0.76% |
+	| de     | 0.54% |
+	| do     | 0.39% |
+	| ad     | 0.31% |
+	| di     | 0.30% |
+	| id     | 0.26% |
+	| od     | 0.18% |
+	| da     | 0.17% |
+	| du     | 0.05% |
+	| ud     | 0.05% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| yo     | 0.98% |
+	| ay     | 0.37% |
+	| ey     | 0.23% |
+	| ye     | 0.11% |
+	| yi     | 0.05% |
+	| oy     | 0.04% |
+	| uy     | 0.02% |
+	| ya     | 0.01% |
+	| yu     | 0.00% |
+	| iy     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| me     | 0.93% |
+	| om     | 0.54% |
+	| ma     | 0.49% |
+	| mo     | 0.31% |
+	| im     | 0.31% |
+	| em     | 0.30% |
+	| am     | 0.25% |
+	| mi     | 0.24% |
+	| um     | 0.10% |
+	| mu     | 0.10% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ow     | 0.54% |
+	| wa     | 0.53% |
+	| we     | 0.47% |
+	| wi     | 0.41% |
+	| wo     | 0.31% |
+	| ew     | 0.09% |
+	| aw     | 0.07% |
+	| wu     | 0.00% |
+	| iw     | 0.00% |
+	| uw     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| co     | 0.50% |
+	| ca     | 0.49% |
+	| ce     | 0.43% |
+	| ac     | 0.35% |
+	| ic     | 0.34% |
+	| ec     | 0.30% |
+	| ci     | 0.14% |
+	| uc     | 0.12% |
+	| oc     | 0.08% |
+	| cu     | 0.08% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ge     | 0.34% |
+	| ig     | 0.27% |
+	| go     | 0.26% |
+	| ag     | 0.16% |
+	| ug     | 0.15% |
+	| gi     | 0.13% |
+	| ga     | 0.11% |
+	| gu     | 0.07% |
+	| eg     | 0.06% |
+	| og     | 0.06% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| of     | 0.71% |
+	| fo     | 0.40% |
+	| if     | 0.29% |
+	| fe     | 0.29% |
+	| fi     | 0.23% |
+	| fa     | 0.17% |
+	| ef     | 0.11% |
+	| fu     | 0.09% |
+	| af     | 0.05% |
+	| uf     | 0.02% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| pe     | 0.40% |
+	| pa     | 0.21% |
+	| po     | 0.21% |
+	| op     | 0.20% |
+	| ap     | 0.15% |
+	| up     | 0.14% |
+	| ep     | 0.12% |
+	| pi     | 0.11% |
+	| pu     | 0.07% |
+	| ip     | 0.05% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| be     | 0.66% |
+	| bu     | 0.26% |
+	| bo     | 0.23% |
+	| ab     | 0.19% |
+	| ba     | 0.15% |
+	| bi     | 0.09% |
+	| ob     | 0.07% |
+	| ib     | 0.06% |
+	| ub     | 0.04% |
+	| eb     | 0.02% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ve     | 1.05% |
+	| ev     | 0.37% |
+	| av     | 0.26% |
+	| iv     | 0.22% |
+	| ov     | 0.18% |
+	| vi     | 0.16% |
+	| va     | 0.06% |
+	| vo     | 0.05% |
+	| vu     | 0.00% |
+	| uv     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ke     | 0.39% |
+	| ak     | 0.19% |
+	| ki     | 0.16% |
+	| ik     | 0.13% |
+	| ok     | 0.11% |
+	| ek     | 0.02% |
+	| ka     | 0.02% |
+	| ku     | 0.00% |
+	| ko     | 0.00% |
+	| uk     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ju     | 0.11% |
+	| jo     | 0.04% |
+	| je     | 0.02% |
+	| ja     | 0.01% |
+	| aj     | 0.01% |
+	| ej     | 0.00% |
+	| ji     | 0.00% |
+	| oj     | 0.00% |
+	| ij     | 0.00% |
+	| uj     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ex     | 0.12% |
+	| xi     | 0.03% |
+	| ix     | 0.02% |
+	| xa     | 0.01% |
+	| ax     | 0.01% |
+	| xe     | 0.01% |
+	| ox     | 0.01% |
+	| ux     | 0.00% |
+	| xu     | 0.00% |
+	| xo     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| ze     | 0.04% |
+	| iz     | 0.04% |
+	| az     | 0.02% |
+	| za     | 0.01% |
+	| zi     | 0.01% |
+	| zo     | 0.01% |
+	| ez     | 0.01% |
+	| oz     | 0.00% |
+	| uz     | 0.00% |
+	| zu     | 0.00% |
+
+	</td><td>
+
+	| bigram | freq  |
+	| ------ | ----- |
+	| qu     | 0.08% |
+	| eq     | 0.02% |
+	| iq     | 0.00% |
+	| aq     | 0.00% |
+	| oq     | 0.00% |
+	| qi     | 0.00% |
+	| uq     | 0.00% |
+
+	</td></tr>
+</table>
 
 Consonant + vowel bigrams amount to about 64.085% of bigrams.
 
@@ -207,7 +533,7 @@ Double letters amount to about 2.603% of bigrams.
 | i'll | 0.10 | 'cause | 0.04 | you'd | 0.02 | they've | 0.01 | else's | 0.01 |
 | we're | 0.07 | isn't | 0.04 | she's | 0.02 | shouldn't | 0.01 | here's | 0.00 |
 
-The tables above were made using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&) parsed seperately.
+The tables above was made using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&) parsed seperately.
 
 ## Top trigrams with apostrophe
 
