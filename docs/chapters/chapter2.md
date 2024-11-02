@@ -7,7 +7,7 @@ title: "Chapter 2"
 
 To understand where the stats for a layout are coming from, first we need to be familiar with the letter, bigram and trigram frequency of the language the layout is for. Most layouts were designed for English, so that is what we will be looking at.
 
-Note: the bigram and trigram tables in the following sections were created using the [Monkeyracer corpus](https://github.com/o-x-e-y/oxeylyzer/blob/main/static/language_data/monkeyracer.json).
+Note: the bigram and trigram tables in the following sections were created using the [Monkeyracer corpus](https://github.com/o-x-e-y/oxeylyzer-2/blob/main/data/monkeyracer.json).
 
 ## English letter frequency
 
