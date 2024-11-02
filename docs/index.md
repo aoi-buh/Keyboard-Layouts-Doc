@@ -17,11 +17,7 @@ This document would not have been possible without the help of multiple people. 
     - [Programs used to install a new layout](chapters/preface.md#programs-used-to-install-a-new-layout)
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 1: Typing basics (7 min)](chapters/chapter1.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter1.html">Chapter 1: Typing basics (7 min)</a></strong></summary>
 
 	- [Touch typing](chapters/chapter1.md#touch-typing)
 	- [The home row](chapters/chapter1.md#the-home-row)
@@ -35,11 +31,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 2: Angle mod (10 min)](chapters/chapter2.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter2.html">Chapter 2: Angle mod (10 min)</a></strong></summary>
 
 	- [Improved typing technique](chapters/chapter2.md#improved-typing-technique)
 	- [ANSI and ISO standards](chapters/chapter2.md#ansi-and-iso-standards)
@@ -77,11 +69,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 4: SFBs, SFSs and distance (18 min)](chapters/chapter4.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter4.html">Chapter 4: SFBs, SFSs and distance (18 min)</a></strong></summary>
 
 	- [Same finger bigrams (SFBs)](chapters/chapter4.md#same-finger-bigrams-(sfbs))
 	- [Calculating the distance between two keys](chapters/chapter4.md#calculating-the-distance-between-two-keys)
@@ -100,11 +88,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 5: Alt fingering, SFB collisions and sliding (6 min)](chapters/chapter5.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter5.html">Chapter 5: Alt fingering, SFB collisions and sliding (6 min)</a></strong></summary>
 
 	- [Alt fingering](chapters/chapter5.md#alt-fingering)
 	- [SFB collisions](chapters/chapter5.md#sfb-collisions)
@@ -117,20 +101,12 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 6: Scissors (11 min)](chapters/chapter6.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter6.html">Chapter 6: Scissors (11 min)</a></strong></summary>
 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 7: Lateral stretches (10 min)](chapters/chapter7.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter7.html">Chapter 7: Lateral stretches (10 min)</a></strong></summary>
 
 	- [The center column](chapters/chapter7.md#the-center-column)
 	- [Lateral stretch bigrams (LSBs)](chapters/chapter7.md#lateral-stretch-bigrams-(lsbs))
@@ -150,11 +126,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 8: Trigram stats (14 min)](chapters/chapter8.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter8.html">Chapter 8: Trigram stats (14 min)</a></strong></summary>
 
 	- [Alts, rolls, 3rolls & redir](chapters/chapter8.md#alts,-rolls,-3rolls-&-redir)
 	- [The relation between alts, rolls, 3rolls and redir](chapters/chapter8.md#the-relation-between-alts,-rolls,-3rolls-and-redir)
@@ -170,11 +142,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 9: Layout structure (8 min)](chapters/chapter9.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter9.html">Chapter 9: Layout structure (8 min)</a></strong></summary>
 
 	- [Letter stacks](chapters/chapter9.md#letter-stacks)
 	- [One consonant stack](chapters/chapter9.md#one-consonant-stack)
@@ -188,11 +156,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 10: Vowel blocks and punctuation (14 min)](chapters/chapter10.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter10.html">Chapter 10: Vowel blocks and punctuation (14 min)</a></strong></summary>
 
 	- [Challenging the home row convention](chapters/chapter10.md#challenging-the-home-row-convention)
 	- [OE stack](chapters/chapter10.md#oe-stack)
@@ -219,11 +183,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 11: Consonant blocks (7 min)](chapters/chapter11.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter11.html">Chapter 11: Consonant blocks (7 min)</a></strong></summary>
 
 	- [Consonant patterns](chapters/chapter11.md#consonant-patterns)
 	- [HN stack (most popular)](chapters/chapter11.md#hn-stack-(most-popular))
@@ -246,11 +206,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 12: Layout subgroups (8 min)](chapters/chapter12.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter12.html">Chapter 12: Layout subgroups (8 min)</a></strong></summary>
 
 	- [Classifying layouts](chapters/chapter12.md#classifying-layouts)
 	- [Layout stat table](chapters/chapter12.md#layout-stat-table)
@@ -261,11 +217,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 13: Colemak-like layouts (4 min)](chapters/chapter13.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter13.html">Chapter 13: Colemak-like layouts (4 min)</a></strong></summary>
 
 	- [Colemak](chapters/chapter13.md#colemak)
 	- [Colemak-like arrangements](chapters/chapter13.md#colemak-like-arrangements)
@@ -278,11 +230,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 14: Inward rotation layouts (18 min)](chapters/chapter14.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter14.html">Chapter 14: Inward rotation layouts (18 min)</a></strong></summary>
 
 	- [In-rolls & out-rolls](chapters/chapter14.md#in-rolls-&-out-rolls)
 	- [How to arrange the vowels for in-rolls](chapters/chapter14.md#how-to-arrange-the-vowels-for-in-rolls)
@@ -312,11 +260,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 15: High roll - mid redirect layouts (18 min)](chapters/chapter15.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter15.html">Chapter 15: High roll - mid redirect layouts (18 min)</a></strong></summary>
 
 	- [Rolls & redirects](chapters/chapter15.md#rolls-&-redirects)
 	- [Basics](chapters/chapter15.md#basics)
@@ -340,11 +284,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 16: High roll - 3roll layouts (1 min)](chapters/chapter16.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter16.html">Chapter 16: High roll - 3roll layouts (1 min)</a></strong></summary>
 
 	- [3rolls](chapters/chapter16.md#3rolls)
 	- [Layout arrangements for 3rolls](chapters/chapter16.md#layout-arrangements-for-3rolls)
@@ -353,11 +293,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 17: High alternation layouts (15 min)](chapters/chapter17.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter17.html">Chapter 17: High alternation layouts (15 min)</a></strong></summary>
 
 	- [Alternation](chapters/chapter17.md#alternation)
 	- [Layout arrangements for high alternation](chapters/chapter17.md#layout-arrangements-for-high-alternation)
@@ -376,11 +312,7 @@ This document would not have been possible without the help of multiple people. 
   </details>
 
 - <details markdown="1">
-  <summary markdown "1">
-
-	[Chapter 18: Consonant columns](chapters/chapter18.md)
-
-  </summary>
+  <summary><strong><a href="chapters/chapter18.html">Chapter 18: Consonant columns</a></strong></summary>
 
 	- [Info given for each consonant](chapters/chapter18.md#info-given-for-each-consonant)
 		- [Pairs](chapters/chapter18.md#pairs)
