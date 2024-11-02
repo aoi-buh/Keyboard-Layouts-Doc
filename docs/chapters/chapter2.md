@@ -141,7 +141,7 @@ Bigrams under 0.175% frequency are omitted. As expected, less common consonants 
 		<th>Z + vowels</th>
 		<th>Q + vowels</th>
 	</tr>
-	<tr><td>
+	<tr><td markdown='1'>
 
 	| bigram | freq  |
 	| ------ | ----- |
