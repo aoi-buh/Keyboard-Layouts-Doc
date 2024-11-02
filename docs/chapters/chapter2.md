@@ -7,18 +7,19 @@ title: "Chapter 2"
 
 To understand where the stats for a layout are coming from, first we need to be familiar with the letter, bigram and trigram frequency of the language the layout is for. Most layouts were designed for English, so that is what we will be looking at.
 
-Note: the bigram and trigram tables in the following sections were created using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&).
+Note: the bigram and trigram tables in the following sections were created using the [Monkeyracer corpus](https://github.com/o-x-e-y/oxeylyzer/blob/main/static/language_data/monkeyracer.json).
 
 ## English letter frequency
 
-xychart-beta
-    title ""
+```mermaid
+xychart-beta horizontal
+    title "English Letter Frequency"
     x-axis [e, t, o, a, i, n, s, r, h, l, d, u, y, m, w, c, g, f, p, b, v, k, j, x, z, q]
-    y-axis "Revenue (in $)" 4000 --> 11000
-    bar [12.36, 9.33, 8.21, 7.73, 7.11, 7.00, 6.08, 5.53, 5.42, 4.24, 3.73, 3.25, 2.66, 2.64, 2.42, 2.32, 2.15, 2.09, 1.63, 1.56, 1.11, 0.99, 0.16, 0.13, 0.08, 0.07]
-    line [12.36, 9.33, 8.21, 7.73, 7.11, 7.00, 6.08, 5.53, 5.42, 4.24, 3.73, 3.25, 2.66, 2.64, 2.42, 2.32, 2.15, 2.09, 1.63, 1.56, 1.11, 0.99, 0.16, 0.13, 0.08, 0.07]
+    y-axis "Frequency (%)" 0 --> 20
+    bar [11.50, 8.68, 7.63, 7.19, 6.61, 6.51, 5.66, 5.15, 5.04, 3.94, 3.47, 3.02, 2.48, 2.46, 2.25, 2.16, 2.00, 1.94, 1.52, 1.45, 1.04, 0.92, 0.15, 0.12, 0.07, 0.07]
+```
 
-As one would expect, the vowels `E`, `A`, `O`, `I` are very frequent, while the most common consonants are `T`, `N`, `S`, `R`. These 8 would be the most important letters. Afterwards we would have the letter `H`, followed by `L`, `D`, `C`, and then the vowel `U`.
+As one would expect, the vowels `E`, `O`, `A`, `I` are very frequent, while the most common consonants are `T`, `N`, `S`, `R`. These 8 would be the most important letters. Afterwards we would have the letter `H`, followed by `L`, `D`, and then the vowel `U`.
 
 Note that the results will vary to some extent when using a different corpus. For example, on popular typing websites like TypeRacer or MonkeyType the letter H has around the same usage as R, while W and Y are on par with C.
 
@@ -28,16 +29,16 @@ Note that the results will vary to some extent when using a different corpus. Fo
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| th    | 3.89% | ha    | 1.36% | is    | 1.05% | le    | 0.84% | wh    | 0.61% |
-| he    | 3.09% | ng    | 1.31% | me    | 1.03% | ne    | 0.82% | ho    | 0.60% |
-| in    | 2.51% | to    | 1.23% | ar    | 1.01% | of    | 0.79% | om    | 0.60% |
-| an    | 2.14% | en    | 1.23% | hi    | 0.93% | ti    | 0.78% | ro    | 0.60% |
-| ou    | 1.98% | it    | 1.21% | ea    | 0.92% | as    | 0.76% | ow    | 0.60% |
-| er    | 1.95% | ve    | 1.16% | se    | 0.88% | li    | 0.74% | de    | 0.60% |
-| re    | 1.85% | or    | 1.16% | al    | 0.88% | be    | 0.73% | wa    | 0.59% |
-| on    | 1.49% | yo    | 1.08% | ll    | 0.88% | no    | 0.72% | ut    | 0.58% |
-| nd    | 1.49% | es    | 1.08% | te    | 0.87% | nt    | 0.69% | el    | 0.57% |
-| at    | 1.39% | st    | 1.06% | ed    | 0.85% | ur    | 0.62% | co    | 0.56% |
+| th    | 3.51% | ha    | 1.22% | is    | 0.94% | le    | 0.76% | wh    | 0.55% |
+| he    | 2.79% | ng    | 1.18% | me    | 0.93% | ne    | 0.74% | ho    | 0.54% |
+| in    | 2.27% | to    | 1.11% | ar    | 0.91% | of    | 0.71% | om    | 0.54% |
+| an    | 1.93% | en    | 1.11% | hi    | 0.84% | ti    | 0.70% | ro    | 0.54% |
+| ou    | 1.79% | it    | 1.09% | ea    | 0.83% | as    | 0.68% | ow    | 0.54% |
+| er    | 1.76% | ve    | 1.05% | se    | 0.80% | li    | 0.67% | de    | 0.54% |
+| re    | 1.67% | or    | 1.04% | al    | 0.79% | be    | 0.66% | wa    | 0.53% |
+| on    | 1.34% | yo    | 0.98% | ll    | 0.79% | no    | 0.65% | ut    | 0.52% |
+| nd    | 1.34% | es    | 0.97% | te    | 0.79% | nt    | 0.62% | el    | 0.51% |
+| at    | 1.26% | st    | 0.95% | ed    | 0.76% | ur    | 0.56% | co    | 0.50% |
 
 We can see that **most bigrams involve a consonant + a vowel.** Having said that, there are some consonant-only bigrams that are very common (e.g. `TH`, `ND`, `ST`, `NT`, `NG`, `CH`, `LL`...). Lastly, the most relevant vowel-only bigrams are `OU`, `IO` and `EA`.
 
@@ -47,16 +48,16 @@ We can see that **most bigrams involve a consonant + a vowel.** Having said that
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| the   | 3.28% | all   | 0.54% | ter   | 0.39% | tio   | 0.32% | ers   | 0.27% |
-| ing   | 1.53% | for   | 0.53% | rea   | 0.39% | ill   | 0.32% | ive   | 0.27% |
-| you   | 1.50% | hin   | 0.53% | not   | 0.39% | but   | 0.32% | hav   | 0.27% |
-| and   | 1.47% | eve   | 0.52% | are   | 0.38% | out   | 0.32% | ate   | 0.27% |
-| hat   | 0.96% | our   | 0.50% | ght   | 0.35% | igh   | 0.31% | hey   | 0.26% |
-| tha   | 0.79% | ome   | 0.44% | ave   | 0.35% | was   | 0.30% | nce   | 0.25% |
-| her   | 0.72% | ion   | 0.42% | ith   | 0.34% | whe   | 0.29% | com   | 0.25% |
-| thi   | 0.71% | ent   | 0.42% | now   | 0.33% | hen   | 0.29% | ess   | 0.25% |
-| ere   | 0.59% | one   | 0.42% | ear   | 0.33% | can   | 0.28% | wor   | 0.25% |
-| ver   | 0.57% | his   | 0.41% | wit   | 0.32% | oul   | 0.28% | uld   | 0.25% |
+| the   | 2.86% | all   | 0.47% | ter   | 0.34% | tio   | 0.28% | ers   | 0.24% |
+| ing   | 1.33% | for   | 0.46% | rea   | 0.34% | ill   | 0.28% | ive   | 0.24% |
+| you   | 1.30% | hin   | 0.46% | not   | 0.34% | but   | 0.28% | hav   | 0.24% |
+| and   | 1.28% | eve   | 0.45% | are   | 0.33% | out   | 0.28% | ate   | 0.23% |
+| hat   | 0.84% | our   | 0.43% | ght   | 0.30% | igh   | 0.27% | hey   | 0.22% |
+| tha   | 0.69% | ome   | 0.38% | ave   | 0.30% | was   | 0.26% | nce   | 0.22% |
+| her   | 0.63% | ion   | 0.37% | ith   | 0.30% | whe   | 0.25% | com   | 0.22% |
+| thi   | 0.62% | ent   | 0.36% | now   | 0.29% | hen   | 0.25% | ess   | 0.22% |
+| ere   | 0.51% | one   | 0.36% | ear   | 0.28% | can   | 0.25% | wor   | 0.22% |
+| ver   | 0.49% | his   | 0.36% | wit   | 0.28% | oul   | 0.24% | uld   | 0.22% |
 
 **Most trigrams involve both consonants and vowels.** In fact, vowel only trigrams are extremely rare. Although not seen on the table, some consonant-only trigrams are decently common, though (e.g. `LLY`, `STR`, `NGS`...).
 
@@ -64,868 +65,162 @@ We can see that **most bigrams involve a consonant + a vowel.** Having said that
 
 Over the following pages we look at bigram data in more detail. In order to make the information easier to digest, we will subdivide bigrams into different tables:
 
-- Vowel + vowel bigrams
-- Consonant + consonant bigrams
-- Consonant + vowel bigrams
-- Double letters
+- [Vowel + vowel bigrams](#vowel-+-vowel-bigrams)
+- [Consonant + consonant bigrams](#consonant-+-consonant-bigrams)
+- [Consonant + vowel bigrams](#consonant-+-vowel-bigrams)
+- [Double letters](#double-letters)
 
 For a given table, bigrams will be sorted from most to least frequent. The number next to each bigram will indicate its frequency in percent (e.g. `OU` amounts to 0.870% of bigrams).
 
 At the end of this chapter you will also find some additional data:
 
-- Consonant only trigrams
-- Consonant only trigrams (excluding Y)
-- Top words with apostrophe
-- Top trigrams with apostrophe
+- [Consonant only trigrams](#consonant-only-trigrams)
+- [Consonant only trigrams (excluding Y)](#consonant-only-trigrams-(excluding-Y))
+- [Top words with apostrophe](#top-words-with-apostrophe)
+- [Top trigrams with apostrophe](#top-trigrams-with-apostrophe)
 
 ## Vowel + vowel bigrams
 
-1-10
-ou
-0.870
-io
-0.835
-ea
-0.688
-ie
-0.385
-ai
-0.316
-ia
-0.286
-ei
-0.183
-ue
-0.147
-ua
-0.136
-au
-0.119
+| 1-10  | freq  | 11-20 | freq  |
+| ----- | ----- | ----- | ----- |
+| ou    | 1.79% | oi    | 0.10% |
+| ea    | 0.83% | ia    | 0.10% |
+| ee    | 0.48% | ue    | 0.10% |
+| io    | 0.33% | ui    | 0.08% |
+| oo    | 0.32% | ua    | 0.07% |
+| ie    | 0.29% | oe    | 0.06% |
+| ai    | 0.28% | oa    | 0.04% |
+| ei    | 0.14% | eu    | 0.01% |
+| au    | 0.14% | iu    | 0.01% |
+| eo    | 0.11% | uo    | 0.01% |
 
-
-
-
-11-20
-ui
-0.101
-oi
-0.088
-eo
-0.073
-oa
-0.057
-oe
-0.039
-eu
-0.031
-iu
-0.017
-ae
-0.012
-uo
-0.011
-ao
-0.005
-
-
-
-
-Vowel bigrams amount to 4.4% of bigrams.
+Vowel bigrams amount to 5.267% of bigrams.
 
 ## Consonant + consonant bigrams
 
-1-10
-th
-3.556
-nd
-1.352
-st
-1.053
-nt
-1.041
-ng
-0.953
-ch
-0.598
-ns
-0.509
-pr
-0.474
-ct
-0.461
-tr
-0.426
+| 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| th    | 3.51% | ld    | 0.34% | nc    | 0.23% | rd    | 0.16% | pp    | 0.11% |
+| nd    | 1.34% | gh    | 0.33% | ct    | 0.22% | ty    | 0.15% | wn    | 0.11% |
+| ng    | 1.18% | ns    | 0.31% | ht    | 0.22% | ds    | 0.14% | br    | 0.11% |
+| st    | 0.95% | tr    | 0.31% | pr    | 0.22% | gr    | 0.14% | nk    | 0.11% |
+| ll    | 0.79% | sh    | 0.29% | ts    | 0.22% | mp    | 0.14% | rl    | 0.11% |
+| nt    | 0.62% | ry    | 0.28% | bl    | 0.19% | sp    | 0.14% | dr    | 0.10% |
+| wh    | 0.55% | ss    | 0.27% | tt    | 0.18% | ny    | 0.14% | tl    | 0.10% |
+| ch    | 0.40% | rt    | 0.26% | fr    | 0.18% | rn    | 0.13% | ls    | 0.10% |
+| ly    | 0.36% | pl    | 0.23% | kn    | 0.18% | cr    | 0.12% | rr    | 0.10% |
+| rs    | 0.35% | my    | 0.23% | ck    | 0.17% | ys    | 0.12% | ff    | 0.10% |
 
-
-
-
-11-20
-ly
-0.425
-nc
-0.416
-rs
-0.397
-wh
-0.379
-rt
-0.362
-ts
-0.337
-sh
-0.315
-pl
-0.263
-ld
-0.253
-ry
-0.248
-
-
-
-
-21-30
-mp
-0.239
-bl
-0.233
-gh
-0.228
-ty
-0.227
-fr
-0.213
-gr
-0.197
-sp
-0.191
-rd
-0.189
-by
-0.176
-rm
-0.175
-
-
-
-
-31-40
-rn
-0.160
-sc
-0.155
-cr
-0.149
-cl
-0.149
-ls
-0.142
-ht
-0.130
-ds
-0.126
-lt
-0.124
-rc
-0.121
-ck
-0.118
-
-
-
-
-41-50
-br
-0.112
-pt
-0.106
-rg
-0.100
-tl
-0.098
-ny
-0.098
-rk
-0.097
-ys
-0.097
-ph
-0.094
-ms
-0.093
-mb
-0.090
-
-
-
-
-Consonant bigrams amount to 21.406% of bigrams.
+Consonant bigrams amount to about 20.824% of bigrams.
 
 ## Consonant + vowel bigrams
 
 Bigrams under 0.175% frequency are omitted. As expected, less common consonants have fewer bigrams that make the cut. In fact, Q, J and Z have none. The top 50 are highlighted:
 
-T + vowels
-at
-1.487
-ti
-1.343
-te
-1.205
-it
-1.123
-to
-1.041
-ta
-0.530
-ot
-0.442
-et
-0.413
-ut
-0.405
-tu
-0.255
-
-
-
-
-N + vowels
-in
-2.433
-an
-1.985
-on
-1.758
-en
-1.454
-ne
-0.692
-no
-0.465
-un
-0.394
-na
-0.347
-ni
-0.339
-
-
-
-
-S + vowels
-es
-1.339
-is
-1.128
-se
-0.932
-as
-0.871
-si
-0.550
-us
-0.454
-so
-0.398
-su
-0.311
-os
-0.290
-sa
-0.218
-
-
-
-
-R + vowels
-er
-2.048
-re
-1.854
-or
-1.277
-ar
-1.075
-ri
-0.728
-ro
-0.727
-ra
-0.686
-ur
-0.543
-ir
-0.315
-
-
-
-
-H + vowels
-he
-3.075
-ha
-0.926
-hi
-0.763
-ho
-0.485
-
-
-
-
-L + vowels
-al
-1.087
-le
-0.829
-li
-0.624
-el
-0.530
-la
-0.528
-il
-0.432
-lo
-0.387
-ol
-0.365
-ul
-0.346
-
-
-
-
-D + vowels
-ed
-1.168
-de
-0.765
-di
-0.493
-ad
-0.368
-id
-0.296
-od
-0.195
-do
-0.188
-
-
-
-
-C + vowels
-co
-0.794
-ic
-0.699
-ce
-0.651
-ca
-0.538
-ec
-0.477
-ac
-0.448
-ci
-0.281
-uc
-0.188
-
-
-
-
-
-
-
-M + vowels
-me
-0.793
-ma
-0.565
-om
-0.546
-em
-0.374
-mo
-0.337
-im
-0.318
-mi
-0.318
-am
-0.285
-
-
-
-
-F + vowels
-of
-1.175
-fo
-0.488
-fi
-0.285
-fe
-0.237
-if
-0.203
-
-
-
-
-P + vowels
-pe
-0.478
-po
-0.361
-pa
-0.324
-op
-0.224
-ap
-0.203
-
-
-
-
-G + vowels
-ge
-0.385
-ig
-0.255
-ag
-0.205
-
-
-
-
-W + vowels
-wa
-0.385
-wi
-0.374
-we
-0.361
-ow
-0.330
-wo
-0.222
-
-
-
-
-Y + vowels
-ay
-0.217
-
-
-
-
-B + vowels
-be
-0.576
-ab
-0.230
-bo
-0.195
-bu
-0.185
-
-
-
-
-V + vowels
-ve
-0.825
-iv
-0.288
-vi
-0.270
-ev
-0.255
-av
-0.205
-ov
-0.178
-
-
-
-
-K + vowels
-ke
-0.214
-
-
-
-
-X + vowels
-ex
-0.214
-
-
-
-
-
-
-
-
-Consonant + vowel bigrams amount to 71.686% of bigrams.
+| T  | freq  | N  | freq  | S  | freq  | R  | freq  | H  | freq  | L  | freq  | D  | freq  | Y  | freq  | M  | freq  | W  | freq  | C  | freq  | G  | freq  | F  | freq  | P  | freq  | B  | freq  | V  | freq  | K  | freq  | J  | freq  | X  | freq  | Z  | freq  | Q  | freq  |
+| -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- | -- | ----- |
+| at | 1.26% | in | 2.27% | es | 0.97% | er | 1.76% | he | 2.79% | al | 0.79% | ed | 0.76% | yo | 0.98% | me | 0.93% | ow | 0.54% | co | 0.50% | ge | 0.34% | of | 0.71% | pe | 0.40% | be | 0.66% | ve | 1.05% | ke | 0.39% | ju | 0.11% | ex | 0.12% | ze | 0.04% | qu | 0.08% |
+| to | 1.11% | an | 1.93% | is | 0.94% | re | 1.67% | ha | 1.22% | le | 0.76% | de | 0.54% | ay | 0.37% | om | 0.54% | wa | 0.53% | ca | 0.49% | ig | 0.27% | fo | 0.40% | pa | 0.21% | bu | 0.26% | ev | 0.37% | ak | 0.19% | jo | 0.04% | xi | 0.03% | iz | 0.04% | eq | 0.02% |
+| it | 1.09% | on | 1.34% | se | 0.80% | or | 1.04% | hi | 0.84% | li | 0.67% | do | 0.39% | ey | 0.23% | ma | 0.49% | we | 0.47% | ce | 0.43% | go | 0.26% | if | 0.29% | po | 0.21% | bo | 0.23% | av | 0.26% | ki | 0.16% | je | 0.02% | ix | 0.02% | az | 0.02% | iq | 0.00% |
+| te | 0.79% | en | 1.11% | as | 0.68% | ar | 0.91% | ho | 0.54% | el | 0.51% | ad | 0.31% | ye | 0.11% | mo | 0.31% | wi | 0.41% | ac | 0.35% | ag | 0.16% | fe | 0.29% | op | 0.20% | ab | 0.19% | iv | 0.22% | ik | 0.13% | ja | 0.01% | xa | 0.01% | za | 0.01% | aq | 0.00% |
+| ti | 0.70% | ne | 0.74% | us | 0.48% | ur | 0.56% | hu | 0.07% | lo | 0.44% | di | 0.30% | yi | 0.05% | im | 0.31% | wo | 0.31% | ic | 0.34% | ug | 0.15% | fi | 0.23% | ap | 0.15% | ba | 0.15% | ov | 0.18% | ok | 0.11% | aj | 0.01% | ax | 0.01% | zi | 0.01% | oq | 0.00% |
+| ut | 0.52% | no | 0.65% | so | 0.46% | ro | 0.54% | eh | 0.02% | il | 0.42% | id | 0.26% | oy | 0.04% | em | 0.30% | ew | 0.09% | ec | 0.30% | gi | 0.13% | fa | 0.17% | up | 0.14% | bi | 0.09% | vi | 0.16% | ek | 0.02% | ej | 0.00% | xe | 0.01% | zo | 0.01% | qi | 0.00% |
+| ot | 0.47% | un | 0.36% | si | 0.34% | ri | 0.49% | oh | 0.02% | la | 0.32% | od | 0.18% | uy | 0.02% | am | 0.25% | aw | 0.07% | ci | 0.14% | ga | 0.11% | ef | 0.11% | ep | 0.12% | ob | 0.07% | va | 0.06% | ka | 0.02% | ji | 0.00% | ox | 0.01% | ez | 0.01% | uq | 0.00% |
+| et | 0.47% | ni | 0.23% | os | 0.24% | ra | 0.38% | ah | 0.02% | ul | 0.32% | da | 0.17% | ya | 0.01% | mi | 0.24% | wu | 0.00% | uc | 0.12% | gu | 0.07% | fu | 0.09% | pi | 0.11% | ib | 0.06% | vo | 0.05% | ku | 0.00% | oj | 0.00% | ux | 0.00% | oz | 0.00% |
+| ta | 0.39% | na | 0.19% | sa | 0.22% | ir | 0.25% | uh | 0.00% | ol | 0.25% | du | 0.05% | yu | 0.00% | um | 0.10% | iw | 0.00% | oc | 0.08% | eg | 0.06% | af | 0.05% | pu | 0.07% | ub | 0.04% | vu | 0.00% | ko | 0.00% | ij | 0.00% | xu | 0.00% | uz | 0.00% |
+| tu | 0.17% | nu | 0.04% | su | 0.19% | ru | 0.13% | ih | 0.00% | lu | 0.08% | ud | 0.05% | iy | 0.00% | mu | 0.10% | uw | 0.00% | cu | 0.08% | og | 0.06% | uf | 0.02% | ip | 0.05% | eb | 0.02% | uv | 0.00% | uk | 0.00% | uj | 0.00% | xo | 0.00% | zu | 0.00% |
+
+Consonant + vowel bigrams amount to about 64.085% of bigrams.
 
 ## Double letters
 
-1-10
-ll
-0.577
-ss
-0.405
-ee
-0.378
-oo
-0.210
-tt
-0.171
-ff
-0.146
-pp
-0.137
-rr
-0.121
-mm
-0.096
-cc
-0.083
+| char | freq  |
+| ---- | ----- |
+| ll   | 0.79% |
+| ee   | 0.48% |
+| oo   | 0.32% |
+| ss   | 0.27% |
+| tt   | 0.18% |
+| pp   | 0.11% |
+| rr   | 0.10% |
+| ff   | 0.10% |
+| nn   | 0.09% |
+| mm   | 0.05% |
+| cc   | 0.04% |
+| dd   | 0.03% |
+| gg   | 0.02% |
+| bb   | 0.01% |
+| zz   | 0.01% |
+| aa   | 0.00% |
+| ii   | 0.00% |
+| uu   | 0.00% |
+| hh   | 0.00% |
+| vv   | 0.00% |
+| kk   | 0.00% |
+| yy   | 0.00% |
+| xx   | 0.00% |
 
-
-
-
-11-20
-nn
-0.073
-dd
-0.043
-gg
-0.025
-ii
-0.023
-bb
-0.011
-aa
-0.003
-xx
-0.003
-zz
-0.003
-hh
-0.001
-uu
-0.001
-
-
-
-
-21-26
-jj
-0.000
-kk
-0.000
-qq
-0.000
-vv
-0.000
-ww
-0.000
-yy
-0.000
-
-
-
-
-Double letters amount to 2.508% of bigrams.
+Double letters amount to about 2.603% of bigrams.
 
 ## Consonant only trigrams
 
-1-10
-ght
-lly
-str
-ngs
-nly
-rld
-nds
-thr
-rst
-yth
-
-
-
-
-11-20
-nst
-nts
-ttl
-mpl
-rth
-try
-tly
-tch
-ntr
-rds
-
-
-
-
-21-30
-ryt
-why
-lls
-ngl
-sts
-rry
-mys
-ntl
-nyt
-rts
-
-
-
-
-31-40
-rly
-ldn
-yst
-hts
-bly
-nch
-rty
-sky
-cks
-sch
-
-
-
-
-41-50
-scr
-cts
-rch
-mpt
-ppy
-rms
-dly
-ppr
-ply
-ctl
-
-
-
+| 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| ght   | 0.30% | nst   | 0.06% | ntr   | 0.04% | ldn   | 0.02% | sky   | 0.02% |
+| lly   | 0.13% | ttl   | 0.06% | ryt   | 0.04% | bly   | 0.02% | ppy   | 0.02% |
+| str   | 0.13% | nts   | 0.06% | lls   | 0.03% | rly   | 0.02% | cts   | 0.02% |
+| ngs   | 0.11% | rth   | 0.05% | ngl   | 0.03% | hts   | 0.02% | rch   | 0.02% |
+| nly   | 0.10% | mpl   | 0.05% | rry   | 0.03% | rty   | 0.02% | rms   | 0.02% |
+| rld   | 0.09% | try   | 0.05% | nyt   | 0.03% | yst   | 0.02% | mpt   | 0.02% |
+| thr   | 0.09% | tly   | 0.05% | mys   | 0.03% | nch   | 0.02% | ply   | 0.02% |
+| nds   | 0.08% | tch   | 0.05% | ntl   | 0.03% | scr   | 0.02% | dly   | 0.02% |
+| rst   | 0.08% | rds   | 0.04% | sts   | 0.03% | sch   | 0.02% | ndr   | 0.02% |
+| yth   | 0.07% | why   | 0.04% | rts   | 0.02% | cks   | 0.02% | ppr   | 0.01% |
 
 ## Consonant only trigrams (excluding Y)
 
-1-10
-ght
-str
-ngs
-rld
-nds
-thr
-rst
-nst
-nts
-ttl
-
-
-
-
-11-20
-mpl
-rth
-tch
-ntr
-rds
-lls
-ngl
-sts
-ntl
-rts
-
-
-
-
-21-30
-ldn
-hts
-nch
-cks
-sch
-scr
-cts
-rch
-mpt
-rms
-
-
-
-
-31-40
-ppr
-ctl
-ndr
-nth
-nsw
-xpl
-lth
-mpr
-stl
-mbl
-
-
-
-
-41-50
-rns
-nct
-ndl
-ncl
-ngt
-ckl
-ths
-lds
-ddl
-ldr
-
-
-
-
-
-The two tables above were made using the TypeRacer corpus.
+| 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| ght   | 0.30% | rth   | 0.05% | ldn   | 0.02% | ndr   | 0.02% | mpr   | 0.01% |
+| str   | 0.13% | mpl   | 0.05% | hts   | 0.02% | ppr   | 0.01% | ths   | 0.01% |
+| ngs   | 0.11% | tch   | 0.05% | nch   | 0.02% | ctl   | 0.01% | rns   | 0.01% |
+| rld   | 0.09% | rds   | 0.04% | scr   | 0.02% | stl   | 0.01% | lds   | 0.01% |
+| thr   | 0.09% | ntr   | 0.04% | sch   | 0.02% | nsw   | 0.01% | ngt   | 0.01% |
+| nds   | 0.08% | lls   | 0.03% | cks   | 0.02% | nth   | 0.01% | ldr   | 0.01% |
+| rst   | 0.08% | ngl   | 0.03% | cts   | 0.02% | mbl   | 0.01% | ckl   | 0.01% |
+| nst   | 0.06% | ntl   | 0.03% | rch   | 0.02% | xpl   | 0.01% | spr   | 0.01% |
+| ttl   | 0.06% | sts   | 0.03% | rms   | 0.02% | lth   | 0.01% | nct   | 0.01% |
+| nts   | 0.06% | rts   | 0.02% | mpt   | 0.02% | ndl   | 0.01% | ncl   | 0.01% |
 
 ## Top words with apostrophe
 
-1-10
-it's
-don't
-i'm
-you're
-that's
-can't
-i've
-there's
-i'll
-we're
+| 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| it's | 0.35 | didn't | 0.06 | what's | 0.03 | aren't | 0.02 | world's | 0.01 |
+| don't | 0.32 | they're | 0.06 | we've | 0.03 | they'll | 0.02 | we'd | 0.01 |
+| i'm | 0.30 | you've | 0.06 | we'll | 0.03 | haven't | 0.01 | he'll | 0.01 |
+| you're | 0.22 | he's | 0.05 | wouldn't | 0.03 | man's | 0.01 | they'd | 0.01 |
+| that's | 0.14 | you'll | 0.05 | ain't | 0.02 | one's | 0.01 | people's | 0.01 |
+| can't | 0.12 | doesn't | 0.05 | couldn't | 0.02 | 'em | 0.01 | hadn't | 0.01 |
+| i've | 0.11 | won't | 0.05 | let's | 0.02 | who's | 0.01 | weren't | 0.01 |
+| there's | 0.10 | i'd | 0.05 | wasn't | 0.02 | he'd | 0.01 | it'll | 0.01 |
+| i'll | 0.10 | 'cause | 0.04 | you'd | 0.02 | they've | 0.01 | else's | 0.01 |
+| we're | 0.07 | isn't | 0.04 | she's | 0.02 | shouldn't | 0.01 | here's | 0.00 |
 
-
-
-
-11-20
-they're
-didn't
-you've
-he's
-i'd
-you'll
-won't
-doesn't
-'cause
-isn't
-
-
-
-
-21-30
-what's
-ain't
-we'll
-we've
-wouldn't
-couldn't
-wasn't
-let's
-you'd
-she's
-
-
-
-
-31-40
-man's
-haven't
-aren't
-who's
-they'll
-'em
-one's
-he'd
-he'll
-they've
-
-
-
-
-41-50
-shouldn't
-world's
-hadn't
-they'd
-we'd
-people's
-weren't
-else's
-goin'
-it'll
-
-
-
+The tables above were made using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&) parsed seperately.
 
 ## Top trigrams with apostrophe
 
-1-10
-n't
-t's
-i'm
-e's
-u'r
-i'v
-i'l
-e'r
-y'r
-u'v
-
-
-
-
-11-20
-i'd
-u'l
-n's
-r's
-e'l
-y's
-e'v
-e'd
-d's
-u'd
-
-
-
-
-21-30
-o's
-y'l
-g's
-y'v
-a's
-y'd
-d'v
-t'l
-l's
-h's
-
-
-
-
-
-The two tables above were made using the TypeRacer corpus.
+| 1-10  | freq  | 11-20 | freq  | 21-30 | freq  |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| n't   | 0.31  | 'll   | 0.08  | he'   | 0.04  |
+| t's   | 0.22  | at'   | 0.07  | in'   | 0.03  |
+| on'   | 0.15  | an'   | 0.06  | e'r   | 0.03  |
+| it'   | 0.14  | we'   | 0.05  | y'r   | 0.03  |
+| 're   | 0.14  | dn'   | 0.05  | u'v   | 0.02  |
+| ou'   | 0.14  | re'   | 0.05  | u'l   | 0.02  |
+| i'm   | 0.12  | i'v   | 0.04  | i'd   | 0.02  |
+| e's   | 0.10  | sn'   | 0.04  | n's   | 0.02  |
+| 've   | 0.09  | i'l   | 0.04  | en'   | 0.02  |
+| u'r   | 0.09  | ey'   | 0.04  | r's   | 0.02  |
 
