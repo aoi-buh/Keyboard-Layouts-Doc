@@ -134,10 +134,11 @@ Later in this document we will list and compare many different layouts. The layo
 
 **Standard fingering:**
 
+[Gallium](https://github.com/GalileoBlues/Gallium/) (Bryson)
+
 <div style="width: 100%; overflow: hidden;">
 <div markdown='1' style="width: 500; float: left;">
 
-[Gallium](https://github.com/GalileoBlues/Gallium/) (Bryson)
 ```
 b l d c v  z y o u ,
 n r t s g  p h a e i
@@ -154,10 +155,11 @@ For standard fingering, the columns will be strictly vertical. For example, the 
 
 **Angle mod fingering:**
 
+<span style="color:blue">Isrt</span> (Whorf)
+
 <div style="width: 100%; overflow: hidden;">
 <div markdown='1' style="width: 500; float: left;">
 
-<span style="color:blue">Isrt</span> (Whorf)
 ```
 y c l m k  z f u , '
 i s r t g  p n e a o ;
