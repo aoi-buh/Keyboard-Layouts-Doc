@@ -48,19 +48,19 @@ We can obtain the length of the red line by using [Pythagoras' theorem](https://
 
 In our Qwerty `RG` example, the vertical distance is 1U and the horizontal distance is 1.25U (1U from `G` to `F`, and 0.25U from `F` to `R`). Knowing this, we can use Pythagoras to determine the distance between the two keys. We have to square both the horizontal and vertical distances, and then square root the sum:
 
-$`c = \sqrt{a^2+ b^2} = \sqrt{1.25^2 + 1^2} = 1.60 U`$
+$$ c = \sqrt{a^2+ b^2} = \sqrt{1.25^2 + 1^2} = 1.60 U $$
 
 `RG` is a 1.6U SFB
 
 Another example, Qwerty `MY`. The vertical distance is 2U and the horizontal one 1.75U (1U from `M` to `N`, 0.5U from `N` to `H`, and 0.25U from `H` to `Y`). Thus:
 
-$`\sqrt{1.75^2 + 2^2} = 2.66 U`$
+$$ \sqrt{1.75^2 + 2^2} = 2.66 U $$
 
 `MY` is a 2.66U SFB
 
 One final example, Qwerty `VT`. The vertical distance is 2U and the horizontal one 0.25U (from `V` to `G` it would be 0.5U, but then we subtract 0.25U going from `G` to `T`). Thus:
 
-$`\sqrt{0.25^2 + 2^2} = 2.02 U`$
+$$ \sqrt{0.25^2 + 2^2} = 2.02 U $$
 
 `VT` is a 2.02U SFB
 
