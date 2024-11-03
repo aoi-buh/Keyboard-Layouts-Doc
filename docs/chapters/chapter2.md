@@ -134,15 +134,28 @@ Later in this document we will list and compare many different layouts. The layo
 
 **Standard fingering:**
 
+<div style="width: 100%; overflow: hidden;">
+<div markdown='1' style="width: 500; float: left;">
+
 [Gallium](https://github.com/GalileoBlues/Gallium/) (Bryson)
 ```
 b l d c v  z y o u ,
 n r t s g  p h a e i
 q x m w j  k f ' ; .
 ```
-For standard fingering, the columns will be strictly vertical. For example, the left hand on Gallium has a `BNQ` pinky, a `LRX` ring, a `DTM` middle and a `CSWVGJ` index.
-Angle mod fingering:
 
+</div>
+<div markdown='1'> 
+
+For standard fingering, the columns will be strictly vertical. For example, the left hand on Gallium has a `BNQ` pinky, a `LRX` ring, a `DTM` middle and a `CSWVGJ` index.
+
+</div>
+</div>
+
+**Angle mod fingering:**
+
+<div style="width: 100%; overflow: hidden;">
+<div markdown='1' style="width: 500; float: left;">
 
 <span style="color:blue">Isrt</span> (Whorf)
 ```
@@ -150,7 +163,14 @@ y c l m k  z f u , '
 i s r t g  p n e a o ;
  v w d j q  b h / . x
 ```
+
+</div>
+<div markdown='1'> 
+
 For angle mod, the bottom row will be shifted one unit to the right. So, the left hand on Isrt has a `YI` pinky, a `CSV` ring, a `LRW` middle and a `MTDKGJQ` index. Remember that, with `ANSI` angle mod, the left pinky only has two keys, while the left index now has seven.
+
+</div>
+</div>
 
 Sometimes we will use images (rather than text) to showcase a layout. In those cases, we will specify if the layout is angle modded or not to avoid any confusion. Regardless, as you become more familiar with layouts you will be able to easily tell if a layout is angle modded or not simply by glancing at the layout’s columns. For example:
 
