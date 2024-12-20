@@ -1,7 +1,3 @@
----
-layout: default
-title: "Chapter 5"
----
 
 # Alt fingering, SFB collisions and sliding (6 min)
 

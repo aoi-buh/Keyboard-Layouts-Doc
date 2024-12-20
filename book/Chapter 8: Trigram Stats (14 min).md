@@ -1,8 +1,3 @@
----
-layout: default
-title: "Chapter 8"
----
-
 
 # Trigram stats (14 min)
 
@@ -10,21 +5,22 @@ title: "Chapter 8"
 
 There are four stats that highlight what hand motions are most common in a particular layout. These are calculated based on trigrams (three key sequences):
 
-ALTERNATE: pressing one key with one hand, then one with the other, then back to the first (1, 1, 1). In other words, a pure alternating trigram. E.g: Qwerty AND.
+- `ALTERNATE:` pressing one key with one hand, then one with the other, then back to the first (1, 1, 1). In other words, a pure alternating trigram. E.g: Qwerty `AND`.
 
-ROLL: pressing two keys with one hand, and a third key with the other (2, 1 or 1, 2). In other words, a 2 key roll following or preceding a hand change. E.g: Qwerty OUR.
+- `ROLL:` pressing two keys with one hand, and a third key with the other (2, 1 or 1, 2). In other words, a 2 key roll following or preceding a hand change. E.g: Qwerty `OUR`.
 
-3ROLL (also called “onehand”): a one-handed trigram where all keys go in the same direction. In other words, a trigram roll. For example, Qwerty WER.
+- `3ROLL:` (also called “onehand”): a one-handed trigram where all keys go in the same direction. In other words, a trigram roll. For example, Qwerty `WER`.
 
-REDIRECT: a one-handed trigram in which the direction changes. For example, Qwerty SAD is a redirect, as SA is outward while AD is inward. Whether redirects should be minimized or not is a matter of personal preference.
+- `REDIRECT:` a one-handed trigram in which the direction changes. For example, Qwerty `SAD` is a redirect, as `SA` is outward while `AD` is inward. Whether redirects should be minimized or not is a matter of personal preference.
 
-The stats above are based on trigrams to avoid redirects being counted as rolls. For example, if we used bigrams to calculate the stats instead, sequences like DFDFDF could be labeled as multiple rolls, when it's really just a long one-handed sequence.
+The stats above are based on trigrams to avoid redirects being counted as rolls. For example, if we used bigrams to calculate the stats instead, sequences like `DFDFDF` could be labeled as multiple rolls, when it's really just a long one-handed sequence.
 
 ## The relation between alts, rolls, 3rolls and redir
 
 Below we list the trigram stats for five layouts. The layouts are sorted from higher to lower alternation. The numbers show percentages, although the % symbol has been omitted:
 
-
+| | Alt | Rolls | 3Rolls | Redir |
+|--|--|--|--|--|
 
 Alt
 rolls
@@ -79,21 +75,21 @@ Very high
 
 We can identify some patterns from the table:
 
-Lower alternation leads to higher rolling, but also higher redirects. In fact, check the huge difference in total rolling (i.e. rolls + 3rolls) between a max alternation layout like Poqtea (36.5% total rolls) vs Seht Drai (59% total rolls)
+- **Lower alternation leads to higher rolling, but also higher redirects.** In fact, check the huge difference in total rolling (i.e. rolls + 3rolls) between a max alternation layout like Poqtea (36.5% total rolls) vs Seht Drai (59% total rolls)
 
-Conversely, higher alternation leads to lower rolling, and lower redirects. However, Poqtea (T + vowels setup) is an exception, as it has high redirects despite the high alternation. In all other cases, high alternation will lead to lower redirects.
+- **Conversely, higher alternation leads to lower rolling, and lower redirects.* However, Poqtea (T + vowels setup) is an exception, as it has high redirects despite the high alternation. In all other cases, high alternation will lead to lower redirects.
 
 In any case, the takeaway is that no keyboard layout can fully optimize all the stats, as maximizing one stat will necessarily make other stats worse. So, all layouts will have their pros and cons.
 
 ## Balancing alternation & rolling
 
-Which to favor between rolling and alternation is subjective. It can be said that alternation offers a more consistent typing experience, as it feels rhythmic and minimizes awkward sequences. Meanwhile, rolling has higher highs (words that feel very smooth) but lower lows (long same hand sequences). Regardless, it is not a matter of one or the other. Think of it more as a scale, with max alternation on one end and max rolling on the other. We have to decide where on that scale we want our layout to be.
+Which to favor between rolling and alternation is subjective. It can be said that **alternation offers a more consistent typing experience, as it feels rhythmic and minimizes awkward sequences. Meanwhile, rolling has higher highs** (words that feel very smooth) but lower lows (long same hand sequences). Regardless, it is not a matter of one or the other. Think of it more as a scale, with max alternation on one end and max rolling on the other. We have to decide where on that scale we want our layout to be.
 
 ## Which consonants lead to higher or lower rolling
 
 Most layouts place all the vowels on one hand. Doing so leads to a healthy amount of alternation, which ensures there are fewer long same hand sequences and redirects.
 
-Even if we know where the vowels will be, we still have to decide what consonants we want to place on the vowel side. To help us with that we will use the table below, which shows how much each consonant combines with the vowels vs with the consonants. For example, we can see that R + vowels amount to 9.38% of all bigrams, while R + consonants is 4.19%. The table is sorted based on the third column (vowel column minus consonant column). Additionally, the main consonants (i.e. T, N, S, R and H) are highlighted, as their placement will have the most effect on a layout’s stats. Anyway, X, J, Q and Z were omitted:
+Even if we know where the vowels will be, we still have to decide what consonants we want to place on the vowel side. To help us with that we will use the table below, which shows how much each consonant combines with the vowels vs with the consonants. For example, we can see that `R` + vowels amount to 9.38% of all bigrams, while `R` + consonants is 4.19%. The table is sorted based on the third column (vowel column minus consonant column). Additionally, the main consonants (i.e. `T`, `N`, `S`, `R` and `H`) are highlighted, as their placement will have the most effect on a layout’s stats. Anyway, `X`, `J`, `Q` and `Z` were omitted:
 
 
 

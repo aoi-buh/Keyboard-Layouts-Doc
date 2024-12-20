@@ -1,7 +1,3 @@
----
-layout: default
-title: "Chapter 7"
----
 
 # Lateral stretches (10 min)
 

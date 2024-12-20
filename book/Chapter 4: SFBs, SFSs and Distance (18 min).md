@@ -1,11 +1,7 @@
----
-layout: default
-title: "Chapter 4"
----
 
 # Chapter 4: SFBs, SFSs and distance (18 min)
 
-## Same finger bigrams (SFBs)
+## 4.1. Same finger bigrams (SFBs)
 
 **A SFB consists of pressing two keys in succession with the same finger.** For example, take the word `decade` on Qwerty. The line shows letters pressed by the left middle:
 
@@ -35,12 +31,11 @@ Aside from the overall SFB percentage, we should also pay attention to how the S
 
 Another thing to keep in mind is that **lowering SFBs past a certain point will produce diminishing returns.** For instance, the layouts with the lowest SFBs also have the lowest home row use. Additionally, they have lower index finger usage. Finally, they often have higher pinky movement. So, we should not disregard other stats when optimizing SFBs.
 
-
-## Calculating the distance between two keys
+## 4.2. Calculating the distance between two keys
 
 Let’s say we want to know the distance for Qwerty `RG` (we are using Qwerty as a method to refer to the different keys on the keyboard):
 
-![*Qwerty RG distance*](../assets/qwerty rg distance.png)
+<img src="../assets/chapter4/qwerty rg distance.png" alt="*Qwerty RG distance*">
 
 We can obtain the length of the red line by using [Pythagoras' theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem). All we need to know is the vertical distance between the two keys (the green line) and the horizontal distance (the blue line).
 
@@ -48,44 +43,31 @@ We can obtain the length of the red line by using [Pythagoras' theorem](https://
 
 In our Qwerty `RG` example, the vertical distance is 1U and the horizontal distance is 1.25U (1U from `G` to `F`, and 0.25U from `F` to `R`). Knowing this, we can use Pythagoras to determine the distance between the two keys. We have to square both the horizontal and vertical distances, and then square root the sum:
 
-```math
-c=\sqrt{a^2+b^2}=\sqrt{1.25^2+1^2}=1.60U
-```
-
-`RG` is a 1.6U SFB
+$c=\sqrt{a^2+b^2}=\sqrt{1.25^2+1^2}=1.60U$ `RG` is a 1.6U SFB
 
 Another example, Qwerty `MY`. The vertical distance is 2U and the horizontal one 1.75U (1U from `M` to `N`, 0.5U from `N` to `H`, and 0.25U from `H` to `Y`). Thus:
 
-```math
-\sqrt{1.75^2+2^2}=2.66U
-```
-
-`MY` is a 2.66U SFB
+$c=\sqrt{1.75^2+2^2}=2.66U$ `MY` is a 2.66U SFB
 
 One final example, Qwerty `VT`. The vertical distance is 2U and the horizontal one 0.25U (from `V` to `G` it would be 0.5U, but then we subtract 0.25U going from `G` to `T`). Thus:
 
-```math
-\sqrt{0.25^2+2^2}=2.02U
-```
+$c=\sqrt{0.25^2+2^2}=2.02U$ `VT` is a 2.02U SFB
 
-`VT` is a 2.02U SFB
-
-
-## 1U and 2U SFB
+## 4.3. 1U and 2U SFB
 
 Using the method explained above, we will now list the distance for the different SFBs. In this section we look at either 1U or 2U ones. In the following section we check the rest.
 
 **If the two keys that form a SFB are on adjacent keys, then it will be around 1U.** In the image below, Qwerty `FG` is exactly 1U, `FR` is 1.03U, and `FV` is 1.12U:
 
-![*Qwerty FG FR FV*](../assets/qwerty fg fr fv.png)
+<img src="../assets/chapter4/qwerty fg fr fv.png" alt="*Qwerty FG FR FV*">
 
 **If one of the keys is on the bottom row and the other on the top row, then the SFB will be around 2U.** In this case, our finger has to jump over the home row to go from one key to the other. Below, Qwerty `VT` & `NU` are 2.02U, while `VR` & `NY` are 2.14U:
 
-![*Qwerty 2u distances*](../assets/qwerty 2u distance.png)
+<img src="../assets/chapter4/qwerty 2u distance.png" alt="*Qwerty 2u distances*">
 
 Naturally, **the SFBs we do have in a layout should mostly be 1U.** In other words, 2U SFBs should be reserved for rare bigrams only. The Qwerty layout clearly fails in this regard.
 
-## Diagonals
+## 4.4. Diagonals
 
 Traditional keyboards are not symmetrical. For instance, the distance between the left index’s resting position (F) and its bottom diagonal (B) is larger than the distance to the top diagonal (T). Below, Qwerty FT is 1.25U, while FB is 1.8U:
 
@@ -107,13 +89,13 @@ Finally, when using angle mod fingering (Qwerty C being pressed with the index f
 
 Anyway, the bigger the distance, the higher priority not to have that diagonal as a SFB in a layout.
 
-## Same finger Skipgrams (SFSs)
+## 4.5. Same finger Skipgrams (SFSs)
 
 A SFS consists of pressing two keys with the same finger, but separated by X letters. An example would be typing may on Qwerty (M and Y are both typed with the right index).
 
 There are two aspects to SFSs: distance, and how many keys there are of separation. For example, the aforementioned M_Y SFS is 2.66U, and it is a skip-1-gram (i.e. in between M and Y, there is only one key, A, being pressed by a different finger).
 
-The M_Y SFS is the worst of both worlds. Firstly, our right index finger must make a huge jump to go from M to Y. Secondly, this is done almost consecutively, as there is a single letter, A, of separation. Having more keys in between, before a particular finger is needed again, is better, as it gives our finger more time to go back to its resting position (J in this case). An ideal word would be one where each finger is only utilized once.
+The M_Y SFS is the worst of both worlds. Firstly, our right index finger must make a huge jump to go from M to Y. Secondly, this is done almost consecutively, as there is a single letter, A, of separation. Having more keys in between before a particular finger is needed again is better, as it gives our finger more time to go back to its resting position (J in this case). An ideal word would be one where each finger is only utilized once.
 
 Qwerty is unfortunately full of words that are typed with just two fingers. For example, the word burn is typed by alternating both index fingers. In the image below, the orange line shows letters pressed by the left index. Yellow for right index:
 
@@ -125,7 +107,7 @@ Here, T_G is a same finger skip-3-gram (i.e. there are three letters separating 
 
 So, Qwerty performs terribly at SFSs. The benefit of optimizing SFSs is that each word will be spread across more fingers. Moreover, when we do have to use any particular finger almost consecutively, the distance between the two keys will be minimal.
 
-## Distance on a layout
+## 4.6. Distance on a layout
 
 For the longest time, distance used to be measured as “distance off the home row”. In other words, it was assumed that pressing keys on the home row required no movement, while pressing keys outside the home row did. However, this is a great oversimplification. Take the word refer on Qwerty for example:
 
@@ -141,7 +123,7 @@ The method above keeps SFB and SFS distances as separate stats. A more elaborate
 
 Moreover, this later approach can be used to calculate the movement per finger. With “movement” being SFB + SFS distance. It will sometimes also be referred to as “finger speed”. Regardless, the purpose of finger speed is to, given a group of letters (3 letters on pinky, ring or middle, 6 on index) tell us how to arrange those letters so that SFB + SFS distance is minimized. The Genkey and Oxeylyzer analyzers calculate distance in this way.
 
-## Decentivicing 2U SFBs and SFSs
+## 4.7. Decentivicing 2U SFBs and SFSs
 
 As explained earlier, to calculate the distance between two keys we simply have to square both the horizontal and vertical distances, and then square root the sum. Doing that, Qwerty RT would be 1U, RG 1.6U, RV  2.02U and RB 2.66U:
 
@@ -151,18 +133,7 @@ However, in order to calculate the distance or movement per finger (i.e. “fing
 
 The point of omitting the square root when measuring distance is to punish longer distances more severely (2U SFBs will now be punished 4 times as hard as a 1U). This results in the analyzer outputting layouts where most of the SFBs and SFSs are only 1U.
 
-## Weights for each finger
-
-On Genkey and Oxeylyzer, distance is weighted based on each finger's strength or dexterity level. The following are the default weights on Genkey (Oxeylyzer uses the same ones, although it does not allow us to customize them, while Genkey does):
-
-Index:  5.5
-Middle: 4.8
-Ring:   3.6
-Pinky:  1.5
-
-Basically, the purpose of these weights is to establish that weaker fingers (e.g. pinky) can handle much less movement than stronger fingers (e.g. index). Using that information, the analyzer can then spread movement accordingly when making a layout.
-
-## Distributing movement across the fingers
+## 4.8. Distributing movement across the fingers
 
 Even if we discard letter columns that perform poorly at SFB and SFS distance, the English language still offers a lot of flexibility regarding how to arrange the alphabet to construct keyboard layouts.
 
@@ -227,7 +198,7 @@ Srht
 
 On Rsnt the ring and especially the pinky are very relaxed, yet center column use is low as well. The drawback is that the middle finger has to make up for it. By comparison, on Snht ring finger movement almost doubles and top row pinky use increases by 1%, but in return middle finger movement is much lower than before. Nstr purposely concentrates movement on the index finger, where the SFBs can be comfortably alt fingered. Lastly, Srht has the least overall movement, at the expense of top row pinky use being the highest.
 
-4.10. Distance on Qwerty
+## 4.9. Distance on Qwerty
 q w e r t  y u i o p
 a s d f g  h j k l ;
 z x c v b  n m , . /
@@ -244,7 +215,7 @@ Finally, although the right ring is not anywhere as bad as the prior three, it i
 
 Anyway, the point is that Qwerty was not optimized with SFB and SFS distance in mind.
 
-4.11. Examples of bad words on Qwerty
+## 4.10. Examples of bad words on Qwerty
 
 In the following sections we list words that are tricky to type as they involve Qwerty’s problematic fingers: left middle, left index, right index (and to a lesser extent right ring).
 
@@ -268,7 +239,7 @@ The color code for the different fingers is as follows:
 
 If a finger only presses a single letter in a word, no line will be shown, as SFB and SFS distance for that finger would be zero. Furthermore, there won’t be a line either for SFSs deeper than a skip-3-gram (i.e. skip-4-grams, etc…) as they stop being relevant.
 
-4.11.1. Heavy SFS words on Qwerty
+### 4.10.1. Heavy SFS words on Qwerty
 
 Note: SFSs that involve pressing the same key twice require no movement, as our finger is already over said letter after the first press. An example of such a SFS would be E_E.
 
@@ -323,7 +294,7 @@ Words with all their SFSs on one finger:
 
 
 
-4.11.2. Heavy SFB words on Qwerty
+### 4.10.2. Heavy SFB words on Qwerty
 
 
 Word with high distance (SFBs and SFSs) on the right index finger:
@@ -350,6 +321,16 @@ Word with high distance (SFBs and SFSs) on the right index finger:
 
 
 Word with high distance (SFBs and SFSs) on the left middle finger:
+
+
+
+
+
+
+
+
+
+
 
 
 

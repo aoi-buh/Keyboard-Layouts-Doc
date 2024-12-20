@@ -1,23 +1,25 @@
----
-layout: default
-title: "Chapter 3"
----
-
+p
 # Chapter 3: English data (5 min)
 
 To understand where the stats for a layout are coming from, first we need to be familiar with the letter, bigram and trigram frequency of the language the layout is for. Most layouts were designed for English, so that is what we will be looking at.
 
 Note: the bigram and trigram tables in the following sections were created using the [Monkeyracer corpus](https://github.com/o-x-e-y/oxeylyzer-2/blob/main/data/monkeyracer.json).
 
-## English letter frequency
+## 3.1. English letter frequency
 
-![*English Letter Frequencies*](../assets/english letter frequencies.svg)
+```mermaid
+xychart-beta horizontal
+	title "English Letter Frequencies"
+	y-axis "Frequencies (%)" 0 --> 100
+	x-axis "Letters" [e, t, o, a, n, i, s, r, h, l, d, u, m, y, c, w, g, f, p, b, v, k, j, x, z, q]
+	bar [12.652707836790075, 9.281467082543635, 8.375413597279874, 7.731934018763045, 7.124890907482026, 6.452262155176553, 6.1084291429275375, 5.651700917909796, 5.464602550437035, 4.300891189720058, 3.766778848572934, 3.325492745383702, 2.625507724820232, 2.612899550443397, 2.316896630899165, 2.3052716627810743, 2.1678541292060265, 2.0897759851292945, 1.6217698059671368, 1.4743467028178112, 1.1306871975556334, 1.0001521077917939, 0.13712835526365252, 0.1354511210575598, 0.0762274028838018, 0.06946063039715171]
+```
 
 As one would expect, the vowels `E`, `O`, `A`, `I` are very frequent, while the most common consonants are `T`, `N`, `S`, `R`. These 8 would be the most important letters. Afterwards we would have the letter `H`, followed by `L`, `D`, and then the vowel `U`.
 
 Note that the results will vary to some extent when using a different corpus. For example, on popular typing websites like TypeRacer or MonkeyType the letter H has around the same usage as R, while W and Y are on par with C.
 
-## Top 50 bigrams
+## 3.2. Top 50 bigrams
 
 **Two-letter sequences are known as `bigrams`.** The following is the top 50:
 
@@ -36,7 +38,7 @@ Note that the results will vary to some extent when using a different corpus. Fo
 
 We can see that **most bigrams involve a consonant + a vowel.** Having said that, there are some consonant-only bigrams that are very common (e.g. `TH`, `ND`, `ST`, `NT`, `NG`, `CH`, `LL`...). Lastly, the most relevant vowel-only bigrams are `OU`, `IO` and `EA`.
 
-## Top 50 trigrams
+## 3.3. Top 50 trigrams
 
 **Three-letter sequences are known as `trigrams`.** The following is the top 50:
 
@@ -55,25 +57,25 @@ We can see that **most bigrams involve a consonant + a vowel.** Having said that
 
 **Most trigrams involve both consonants and vowels.** In fact, vowel only trigrams are extremely rare. Although not seen on the table, some consonant-only trigrams are decently common, though (e.g. `LLY`, `STR`, `NGS`...).
 
-## Extended bigram tables
+## 3.4. Extended bigram tables
 
 Over the following pages we look at bigram data in more detail. In order to make the information easier to digest, we will subdivide bigrams into different tables:
 
-- [Vowel + vowel bigrams](#vowel-+-vowel-bigrams)
-- [Consonant + consonant bigrams](#consonant-+-consonant-bigrams)
-- [Consonant + vowel bigrams](#consonant-+-vowel-bigrams)
-- [Double letters](#double-letters)
+- [Vowel + vowel bigrams](#35-vowel--vowel-bigrams)
+- [Consonant + consonant bigrams](#36-consonant--consonant-bigrams)
+- [Consonant + vowel bigrams](#37-consonant--vowel-bigrams)
+- [Double letters](#38-double-letters)
 
 For a given table, bigrams will be sorted from most to least frequent. The number next to each bigram will indicate its frequency in percent (e.g. `OU` amounts to 0.870% of bigrams).
 
 At the end of this chapter you will also find some additional data:
 
-- [Consonant only trigrams](#consonant-only-trigrams)
-- [Consonant only trigrams (excluding Y)](#consonant-only-trigrams-(excluding-Y))
-- [Top words with apostrophe](#top-words-with-apostrophe)
-- [Top trigrams with apostrophe](#top-trigrams-with-apostrophe)
+- [Consonant only trigrams](#39-consonant-only-trigrams)
+- [Consonant only trigrams (excluding Y)](#310-consonant-only-trigrams-(excluding-Y))
+- [Top words with apostrophe](#311-top-words-with-apostrophe)
+- [Top trigrams with apostrophe](#312-top-trigrams-with-apostrophe)
 
-## Vowel + vowel bigrams
+## 3.5. Vowel + vowel bigrams
 
 | 1-10  | freq  | 11-20 | freq  |
 | ----- | ----- | ----- | ----- |
@@ -90,7 +92,7 @@ At the end of this chapter you will also find some additional data:
 
 Vowel bigrams amount to 5.267% of bigrams.
 
-## Consonant + consonant bigrams
+## 3.6. Consonant + consonant bigrams
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -107,7 +109,7 @@ Vowel bigrams amount to 5.267% of bigrams.
 
 Consonant bigrams amount to about 20.824% of bigrams.
 
-## Consonant + vowel bigrams
+## 3.7. Consonant + vowel bigrams
 
 <table markdown='1'>
 	<tr>
@@ -453,7 +455,7 @@ Consonant bigrams amount to about 20.824% of bigrams.
 
 Consonant + vowel bigrams amount to about 64.085% of bigrams.
 
-## Double letters
+## 3.8. Double letters
 
 | char | freq  |
 | ---- | ----- |
@@ -483,7 +485,7 @@ Consonant + vowel bigrams amount to about 64.085% of bigrams.
 
 Double letters amount to about 2.603% of bigrams.
 
-## Consonant only trigrams
+## 3.9. Consonant only trigrams
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -498,7 +500,7 @@ Double letters amount to about 2.603% of bigrams.
 | rst   | 0.08% | rds   | 0.04% | sts   | 0.03% | sch   | 0.02% | ndr   | 0.02% |
 | yth   | 0.07% | why   | 0.04% | rts   | 0.02% | cks   | 0.02% | ppr   | 0.01% |
 
-## Consonant only trigrams (excluding Y)
+## 3.10. Consonant only trigrams (excluding Y)
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -513,7 +515,7 @@ Double letters amount to about 2.603% of bigrams.
 | ttl   | 0.06% | sts   | 0.03% | rms   | 0.02% | lth   | 0.01% | nct   | 0.01% |
 | nts   | 0.06% | rts   | 0.02% | mpt   | 0.02% | ndl   | 0.01% | ncl   | 0.01% |
 
-## Top words with apostrophe
+## 3.11. Top words with apostrophe
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  | 31-40 | freq  | 41-50 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
@@ -530,7 +532,7 @@ Double letters amount to about 2.603% of bigrams.
 
 The tables above was made using the [Monkeyracer corpus](https://cdn.discordapp.com/attachments/807844118826975262/1092588831955501056/mt.txt?ex=672561a4&is=67241024&hm=fa1c6965e882428336263b6c8ecfb7a143f8cde7d83fd9229c2b1e5caaa49f60&) parsed seperately.
 
-## Top trigrams with apostrophe
+## 3.12. Top trigrams with apostrophe
 
 | 1-10  | freq  | 11-20 | freq  | 21-30 | freq  |
 | ----- | ----- | ----- | ----- | ----- | ----- |
