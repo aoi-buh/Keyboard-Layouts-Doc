@@ -97,7 +97,7 @@ The `M_Y` SFS is the worst of both worlds. Firstly, our right index finger must 
 <tr><td><pre>
 ┌─┐
 burn
-└─┘
+ └─┘
 </pre></td><td>
     So, this word contains two SFSs. Not only that, but the <strong>B_R</strong> SFS on the left index is 2.66U, and <strong>U_N</strong> on the right index is 2.02U. Try typing it.
 </td></tr>
@@ -275,9 +275,9 @@ Now take the word `amendment` instead:
 <tr>
 <td>
 <pre>
-┌─┬─┬─┐
+ ┌─┬─┬─┐
 amendment
-└─┴─┘
+  └─┴─┘
 </pre>
 </td>
 <td>
