@@ -11,7 +11,7 @@ This document would not have been possible without the help of multiple people. 
     - [Issues with the Qwerty layout](preface.md#issues-with-the-Qwerty-layout)
     - [Programs used to install a new layout](preface.md#programs-used-to-install-a-new-layout)
 
-1.  Typing
+- Typing
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 1%3A Touch Typing (7 min).md">Chapter 1: Touch Typing (7 min)</a></strong></summary>
 
@@ -42,7 +42,7 @@ This document would not have been possible without the help of multiple people. 
 
 	</details>
 
-2. Letter, bigram and trigram data
+- Letter, bigram and trigram data
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 3%3A English Data (5 min).md">Chapter 3: English Data (5 min)</a></strong></summary>
 
@@ -61,7 +61,7 @@ This document would not have been possible without the help of multiple people. 
 
 	</details>
 
-3. Layout stats
+- Layout stats
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 4%3A SFBs, SFSs and Distance (18 min).md">Chapter 4: SFBs, SFSs and Distance (18 min)</a></strong></summary>
 
@@ -95,21 +95,21 @@ This document would not have been possible without the help of multiple people. 
 	</details>
 
 	<details markdown="1">
-	<summary><strong><a href="book/Chapter 6%3A Scissors (11 min).md">Chapter 6: Scissors (11 min)</a></strong></summary>
+	<summary><strong><a href="book/Chapter 6%3A Scissors (9 min).md">Chapter 6: Scissors (9 min)</a></strong></summary>
 
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#61-row-skips-vs-scissors">6.1. Row skips vs scissors</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#62-full-scissors-bigrams-fsbs">6.2. Full scissors bigrams (FSBs)</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#63-other-potential-scissors">6.3. Other potential scissors</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#64-scissor-angle">6.4. Scissor angle</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#65-adjacent-vs-non-adjacent-scissors">6.5. Adjacent vs non adjacent scissors</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#66-full-scissor-skipgrams-fsss">6.6. Full scissor skipgrams (FSSs)</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#67-half-scissors-bigrams-hsbs">6.7. Half scissors bigrams (HSBs)</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#68-half-scissor-skipgrams-hsss">6.8. Half scissor skipgrams (HSSs)</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#69-keysolve-analyzer">6.9. Keysolve analyzer</a>
-	- <a href="book/Chapter 6%3A Scissors (11 min).md#610-minimizing-scissors">6.10. Minimizing scissors</a>
-		- <a href="book/Chapter 6%3A Scissors (11 min).md#6101-reducing-bottom-row-use">6.10.1. Reducing bottom row use</a>
-		- <a href="book/Chapter 6%3A Scissors (11 min).md#6102-strategically-avoiding-scissors">6.10.2. Strategically avoiding scissors</a>
-		- <a href="book/Chapter 6%3A Scissors (11 min).md#6103-common-scissors-in-layouts">6.10.3. Common scissors in layouts</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#61-row-skips-vs-scissors">6.1. Row skips vs scissors</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#62-full-scissors-bigrams-fsbs">6.2. Full scissors bigrams (FSBs)</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#63-other-potential-scissors">6.3. Other potential scissors</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#64-scissor-angle">6.4. Scissor angle</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#65-adjacent-vs-non-adjacent-scissors">6.5. Adjacent vs non adjacent scissors</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#66-full-scissor-skipgrams-fsss">6.6. Full scissor skipgrams (FSSs)</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#67-half-scissors-bigrams-hsbs">6.7. Half scissors bigrams (HSBs)</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#68-half-scissor-skipgrams-hsss">6.8. Half scissor skipgrams (HSSs)</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#69-keysolve-analyzer">6.9. Keysolve analyzer</a>
+	- <a href="book/Chapter 6%3A Scissors (9 min).md#610-minimizing-scissors">6.10. Minimizing scissors</a>
+		- <a href="book/Chapter 6%3A Scissors (9 min).md#6101-reducing-bottom-row-use">6.10.1. Reducing bottom row use</a>
+		- <a href="book/Chapter 6%3A Scissors (9 min).md#6102-strategically-avoiding-scissors">6.10.2. Strategically avoiding scissors</a>
+		- <a href="book/Chapter 6%3A Scissors (9 min).md#6103-common-scissors-in-layouts">6.10.3. Common scissors in layouts</a>
 
 	</details>
 
@@ -149,7 +149,7 @@ This document would not have been possible without the help of multiple people. 
 
 	</details>
 
-4. How to make a layout
+- How to make a layout
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 9%3A Layout Structure (8 min).md">Chapter 9: Layout Structure (8 min)</a></strong></summary>
 
@@ -215,7 +215,7 @@ This document would not have been possible without the help of multiple people. 
 
 	</details>
 
-5. List of layouts plus their stats
+- List of layouts plus their stats
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 12%3A Layout Subgroups (8 min).md">Chapter 12: Layout Subgroups (8 min)</a></strong></summary>
 
@@ -322,7 +322,7 @@ This document would not have been possible without the help of multiple people. 
 
 	</details>
 
-6. Keyboard columns analysis
+- Keyboard columns analysis
 	<details markdown="1">
 	<summary><strong><a href="book/Chapter 18%3A Consonant Columns (abcdefg).md">Chapter 18: Consonant Columns (abcdefg)</a></strong></summary>
 
