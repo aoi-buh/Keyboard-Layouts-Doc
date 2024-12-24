@@ -31,9 +31,11 @@ The difficulty with defining scissors is that, unlike row skips, they are intrin
 To understand the suggested scissor definition we will use the following images. The ${\color{#ED161C}red}$ lines indicate scissors, while the ${\color{#2DCB70}green}$ lines are the preferred finger patterns.
 
 Adjacent finger pairings.
+
 <img src="../assets/chapter6/adjacent scissors.png" alt="*Adjacent scissors*">
 
 Non adjacent finger pairings.
+
 <img src="../assets/chapter6/non adjacent scissors.png" alt="*Non adjacent scissors*">
 
 On the left hand, the ${\color{#ED161C}red}$ lines show bigrams where the longer finger is lower than the shorter one. On the right hand it is the opposite (the longer finger is now higher). If you try both, you will likely find the ${\color{#2DCB70}green}$ lines to be noticeably more comfortable to type.
@@ -49,14 +51,17 @@ Although accounting for finger length is important, we also have to consider the
 One issue some people might have with the above scissor definition is that, for a given finger pairing (e.g. pinky-ring), only one of the two possible movements is counted as a scissor. For example, most people will agree that the ring finger being lower than the pinky is more uncomfortable than the other way around. Despite that, some will argue that the opposite movement (i.e. pinky bottom row - ring top row) should be penalized regardless.
 
 The main up-down motions that could be added to the earlier scissor definition are bigrams where the pinky is lower than the ring, or the ring is lower than the middle:
+
 <img src="../assets/chapter6/fake scissor 1.png" alt="*Fake scissor image 1*">
 
 So, even though the longer finger is higher, one might choose to count those bigrams as scissors anyway. Note that when using traditional fingering on row stagger the above bigrams become more uncomfortable on the left hand because of the steep angle:
+
 <img src="../assets/chapter6/fake scissor 2.png" alt="*Skill issue part 2*">
 
 ## 6.4. Scissor angle
 
 The angle between the two keys has a significant impact on how a scissor will feel. For instance, the following are the middle-index scissors when using standard fingering on a row staggered keyboard (the letter `C` is pressed by the middle finger):
+
 <img src="../assets/chapter6/scissor angle.png" alt="*Scissor angle*">
 
 **Generally, steeper angles have a more distinct scissor feel, while shallower angles introduce a lateral stretch component.** For example, on Qwerty ${\color{#ED1A21}CR}$ the main issue is the up-down motion where our fingers almost cross each other. By comparison, on Qwerty ${\color{#ED1A21},Y}$ the lateral stretch becomes a more noticeable problem.
@@ -80,9 +85,11 @@ In other words, **the only difference between a full scissor and a half scissor 
 In the images below the ${\color{#ED1B23}red}$ lines indicate half scissors, while the ${\color{#2CC76E}green}$ lines are the preferred finger patterns.
 
 Adjacent HSB:
+
 <img src="../assets/chapter6/adjacent half scissors.png" alt="*Adjacent half scissors*">
 
 Non adjacent HSB:
+
 <img src="../assets/chapter6/non adjacent half scissors.png" alt="*Non adjacent half scissors*">
 
 ## 6.8. Half scissor skipgrams (HSSs)
@@ -119,7 +126,7 @@ All the letters remain on the same fingers, yet the scissors have been greatly r
 
 **On the vowel hand, scissors usually come from punctuation.** An extreme example are layouts which utilize the `YI OA UE` vowel block and then place punctuation right below it. For example, take Semimak:
 
-<img src=".../assets/chapter6/semimak scissors.png" alt="*Semimak punctuation scissors*">
+<img src="../assets/chapter6/semimak scissors.png" alt="*Semimak punctuation scissors*">
 
 So, when a letter on the top row is followed by a punctuation symbol, we get a scissor.
 
