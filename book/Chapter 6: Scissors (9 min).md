@@ -28,7 +28,7 @@ The difficulty with defining scissors is that, unlike row skips, they are intrin
 1. **The vertical separation between the keys is two rows.**
 2. **The finger that prefers being higher is not.** This includes bigrams where the middle finger is lower than any other finger, and bigrams where the ring is lower than the pinky or the index.
 
-To understand the suggested scissor definition we will use the following images. The ${color{#ED161C}red}$ lines indicate scissors, while the ${color{#2DCB70}green}$ lines are the preferred finger patterns.
+To understand the suggested scissor definition we will use the following images. The ${\color{#ED161C}red}$ lines indicate scissors, while the ${\color{#2DCB70}green}$ lines are the preferred finger patterns.
 
 Adjacent finger pairings.
 <img src="../assets/chapter6/adjacent scissors.png" alt="*Adjacent scissors*">
@@ -36,7 +36,7 @@ Adjacent finger pairings.
 Non adjacent finger pairings.
 <img src="../assets/chapter6/non adjacent scissors.png" alt="*Non adjacent scissors*">
 
-On the left hand, the ${color{#ED161C}red}$ lines show bigrams where the longer finger is lower than the shorter one. On the right hand it is the opposite (the longer finger is now higher). If you try both, you will likely find the ${color{#2DCB70}green}$ lines to be noticeably more comfortable to type.
+On the left hand, the ${\color{#ED161C}red}$ lines show bigrams where the longer finger is lower than the shorter one. On the right hand it is the opposite (the longer finger is now higher). If you try both, you will likely find the ${\color{#2DCB70}green}$ lines to be noticeably more comfortable to type.
 
 Although accounting for finger length is important, we also have to consider the fact that our arms approach the keyboard at an angle. That is to say, our wrists are not at a 90º angle in relation to the keyboard, but closer to 70º. This naturally places the index finger a bit closer to the bottom row, and the pinky closer to the top row. Anyway, the preferred placements for each finger (in relation to the other finger in the bigram) will be:
 - The index prefers being lower.
@@ -59,7 +59,7 @@ So, even though the longer finger is higher, one might choose to count those big
 The angle between the two keys has a significant impact on how a scissor will feel. For instance, the following are the middle-index scissors when using standard fingering on a row staggered keyboard (the letter `C` is pressed by the middle finger):
 <img src="../assets/chapter6/scissor angle.png" alt="*Scissor angle*">
 
-**Generally, steeper angles have a more distinct scissor feel, while shallower angles introduce a lateral stretch component.** For example, on Qwerty ${color{#ED1A21}CR}$ the main issue is the up-down motion where our fingers almost cross each other. By comparison, on Qwerty ${color{#ED1A21},Y}$ the lateral stretch becomes a more noticeable problem.
+**Generally, steeper angles have a more distinct scissor feel, while shallower angles introduce a lateral stretch component.** For example, on Qwerty ${\color{#ED1A21}CR}$ the main issue is the up-down motion where our fingers almost cross each other. By comparison, on Qwerty ${\color{#ED1A21},Y}$ the lateral stretch becomes a more noticeable problem.
 
 ## 6.5. Adjacent vs non adjacent scissors
 
@@ -77,7 +77,7 @@ A HSB is a bigram where:
 
 In other words, **the only difference between a full scissor and a half scissor is that the vertical separation between the two keys is cut in half.** Naturally, this makes half scissors much less problematic than full scissors, although they are still not ideal.
 
-In the images below the ${color{#ED1B23}red}$ lines indicate half scissors, while the ${color{#2CC76E}green}$ lines are the preferred finger patterns.
+In the images below the ${\color{#ED1B23}red}$ lines indicate half scissors, while the ${\color{#2CC76E}green}$ lines are the preferred finger patterns.
 
 Adjacent HSB:
 <img src="../assets/chapter6/adjacent half scissors.png" alt="*Adjacent half scissors*">
@@ -101,7 +101,7 @@ A straightforward way of minimizing scissors is to **place only rare characters 
 
 <img src="../assets/chapter6/canary bottom row.png" alt="Canary layout with red boxes on bottom row middle, ring and pinky keys.">
 
-We can see that the keys inside the ${color{#F1161A}red}$ blocks have low usage. On the left hand there are no scissors, as `Q`, `J` and `V` rarely combine with the letters on the top row. Same applies for punctuation on the right hand. **With this approach, the only part of the bottom row that is heavily utilized are the index finger keys.** Any layout that arranges the bottom row in this manner will perform well at scissors.
+We can see that the keys inside the ${\color{#F1161A}red}$ blocks have low usage. On the left hand there are no scissors, as `Q`, `J` and `V` rarely combine with the letters on the top row. Same applies for punctuation on the right hand. **With this approach, the only part of the bottom row that is heavily utilized are the index finger keys.** Any layout that arranges the bottom row in this manner will perform well at scissors.
 
 ### 6.10.2. Strategically avoiding scissors
 
@@ -109,7 +109,7 @@ If we place common characters on the bottom row middle, ring or pinky keys, then
 
 <img src="../assets/chapter6/layout with lots of row jumps.png" alt="*Layout with lots of row jumps*">
 
-There is a lot of up-down motion on the left hand: ${color{#ED1B23}WH}$, ${color{#ED1B23}BL}$, ${color{#ED1B23}LD}$ and ${color{#ED1B23}LK}$. Having said that, this can be easily solved by swapping which letters are on the top or bottom row:
+There is a lot of up-down motion on the left hand: ${\color{#ED1B23}WH}$, ${\color{#ED1B23}BL}$, ${\color{#ED1B23}LD}$ and ${\color{#ED1B23}LK}$. Having said that, this can be easily solved by swapping which letters are on the top or bottom row:chapter
 
 <img src="../assets/chapter6/layout with lots of row jumps fixed.png" alt="*Layout with lots of row jumps fixed*">
 

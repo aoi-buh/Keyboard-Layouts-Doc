@@ -1,16 +1,16 @@
 # 5. Alt fingering, SFB collisions and sliding (6 min)
 
 ## 5.1. Alt fingering
-${\color{#ED1B23}RG}$
-**Using a finger other than the intended one to type a certain bigram, with the purpose of avoiding a is referred to alt fingering.** For example, if we use standard fingering on Qwerty, the ${color{#ED1B23}CE}$ and ${color{#ED1B23}EC}$ bigrams are 2U SFBs:
+
+**Using a finger other than the intended one to type a certain bigram, with the purpose of avoiding a is referred to alt fingering.** For example, if we use standard fingering on Qwerty, the ${\color{#ED1B23}CE}$ and ${\color{#ED1B23}EC}$ bigrams are 2U SFBs:
 
 <img src="../assets/chapter5/qwerty ce.png" alt="*Qwerty ce*">
 
-Instead, to remove the aforementioned SFBs we can alt finger ${color{#ED1B23}CE}$/${color{#ED1B23}EC}$ by pressing `C` with the index finger (rather than the middle). This is what many advanced Qwerty users do.
+Instead, to remove the aforementioned SFBs we can alt finger ${\color{#ED1B23}CE}$/${\color{#ED1B23}EC}$ by pressing `C` with the index finger (rather than the middle). This is what many advanced Qwerty users do.
 
 ## 5.2. SFB collisions
 
-**A collision refers to when alt fingering a SFB creates a new SFB.** For instance, with standard fingering, ${color{#870014}CT}$ is not a SFB on Qwerty. However, if we alt finger ${color{#ED1B23}EC}$ by pressing `C` with the index, then ${color{#870014}CT}$ does become a SFB specifically on the `ECT` trigram:
+**A collision refers to when alt fingering a SFB creates a new SFB.** For instance, with standard fingering, ${\color{#870014}CT}$ is not a SFB on Qwerty. However, if we alt finger ${\color{#ED1B23}EC}$ by pressing `C` with the index, then ${\color{#870014}CT}$ does become a SFB specifically on the `ECT` trigram:
 
 <img src="../assets/chapter5/qwerty ct.png" alt="*Qwerty ct*">
 
@@ -20,13 +20,13 @@ Ideally, we should aim to minimize SFB collisions, but they are sometimes unavoi
 
 Although alt fingering can be used to circumvent some of the issues of poor layouts like Qwerty, we are mainly interested in using it to further improve well optimized layouts.
 
-If we do not ever deviate from either standard fingering or angle mod, we can only minimize SFBs up to a certain point, as we are restricted by English’s bigram frequency. **In order to reduce SFBs further, we can purposely place a few SFBs in a location where they are comfortable to alt finger.** A layout that does this is [Noctum](https://oxey.dev/noctum/) which has three intended alt fingers: ${color{#21B04C}RK}$, ${color{#21B04C}RL}$ and ${color{#21B04C}LK}$. Note that below the layout has been angle modded:
+If we do not ever deviate from either standard fingering or angle mod, we can only minimize SFBs up to a certain point, as we are restricted by English’s bigram frequency. **In order to reduce SFBs further, we can purposely place a few SFBs in a location where they are comfortable to alt finger.** A layout that does this is [Noctum](https://oxey.dev/noctum/) which has three intended alt fingers: ${\color{#21B04C}RK}$, ${\color{#21B04C}RL}$ and ${\color{#21B04C}LK}$. Note that below the layout has been angle modded:
 
 <img src="../assets/chapter5/noctum alt.png" alt="*Noctum index alts*">
 
-To alt finger ${color{#21B04C}RK}$ we press `R` with the middle finger, and `K` with the index. Since the ${color{#21B04C}RK}$ bigram is never preceded by one of the letters on the middle finger (i.e. trigrams like `DRK`, `TRK` or `MRK` are nonexistent in English) alt fingering ${color{#21B04C}RK}$ will not cause SFB collisions on Noctum. Similarly, the ${color{#21B04C}LK}$ alt finger (typed by pressing `L` with the middle finger and `K` with the index) is also free of SFB collisions.
+To alt finger ${\color{#21B04C}RK}$ we press `R` with the middle finger, and `K` with the index. Since the ${\color{#21B04C}RK}$ bigram is never preceded by one of the letters on the middle finger (i.e. trigrams like `DRK`, `TRK` or `MRK` are nonexistent in English) alt fingering ${\color{#21B04C}RK}$ will not cause SFB collisions on Noctum. Similarly, the ${\color{#21B04C}LK}$ alt finger (typed by pressing `L` with the middle finger and `K` with the index) is also free of SFB collisions.
 
-The ${color{#21B04C}RL}$ alt finger (`R` with the index, `L` with the middle) does introduce a SFB collision in the word `WORLD`, as both `L` and `D` are pressed with the middle finger in this case. A possible solution would be to introduce yet another alt finger, and press the letter `D` with the ring finger in this specific case. Some people might argue that if to remove one SFB (${color{#21B04C}RL}$) we must perform two alt fingers (${color{#21B04C}RL}$ and `LD`), then it is preferable to just type the SFB normally.
+The ${\color{#21B04C}RL}$ alt finger (`R` with the index, `L` with the middle) does introduce a SFB collision in the word `WORLD`, as both `L` and `D` are pressed with the middle finger in this case. A possible solution would be to introduce yet another alt finger, and press the letter `D` with the ring finger in this specific case. Some people might argue that if to remove one SFB (${\color{#21B04C}RL}$) we must perform two alt fingers (${\color{#21B04C}RL}$ and `LD`), then it is preferable to just type the SFB normally.
 
 ## 5.4. Most comfortable alt fingers
 
@@ -34,19 +34,19 @@ It is generally agreed that **the best location to place a SFB that we intend to
 
 ### 5.4.1. On row stagger
 
-Standard keyboards are not symmetrical. Therefore, a bigram and its mirror (i.e. the same bigram but on the opposite hand) may vary in length. We will compare each alt finger to its mirror. The more comfortable of the two will be shown in ${color{#21B04C}green}$, the other in ${color{#FFF200}yellow}$.
+Standard keyboards are not symmetrical. Therefore, a bigram and its mirror (i.e. the same bigram but on the opposite hand) may vary in length. We will compare each alt finger to its mirror. The more comfortable of the two will be shown in ${\color{#21B04C}green}$, the other in ${\color{#FFF200}yellow}$.
 
 <img src="../assets/chapter5/qwerty index alts.png" alt="*Qwerty index alts*">
 
-Qwerty ${color{#21B04C}FR}$ (index -> middle) is an easy alt. This is because the stagger makes it so `R` is very close to the middle finger’s resting position (`D`). On the right hand, `K` is noticeably further away from `U`, making ${color{#FFF200}JU}$ a bigger jump for the middle finger.
+Qwerty ${\color{#21B04C}FR}$ (index -> middle) is an easy alt. This is because the stagger makes it so `R` is very close to the middle finger’s resting position (`D`). On the right hand, `K` is noticeably further away from `U`, making ${\color{#FFF200}JU}$ a bigger jump for the middle finger.
 
-Qwerty ${color{#21B04C}UH}$ (middle -> index) is very comfortable on the right hand. Its mirror (${color{#FFF200}RG}$) forces us to splay our fingers a bit more, as the keys are further apart. Having said that, ${color{#FFF200}RG}$ does require a smaller jump from the middle finger.
+Qwerty ${\color{#21B04C}UH}$ (middle -> index) is very comfortable on the right hand. Its mirror (${\color{#FFF200}RG}$) forces us to splay our fingers a bit more, as the keys are further apart. Having said that, ${\color{#FFF200}RG}$ does require a smaller jump from the middle finger.
 
-Qwerty ${color{#21B04C}RT}$ (middle -> index) is nicer than its mirror (${color{#FFF200}UY}$) simply because `T` is closer to the index finger’s resting position (`F`) than `Y` is to `J`. Same reasoning applies to Qwerty ${color{#21B04C}MN}$ being better than ${color{#FFF200}VB}$.
+Qwerty ${\color{#21B04C}RT}$ (middle -> index) is nicer than its mirror (${\color{#FFF200}UY}$) simply because `T` is closer to the index finger’s resting position (`F`) than `Y` is to `J`. Same reasoning applies to Qwerty ${\color{#21B04C}MN}$ being better than ${\color{#FFF200}VB}$.
 
-Qwerty ${color{#21B04C}DC}$ (middle -> index) is a possible alt finger if we use standard fingering. If we used angle mod instead, it wouldn’t be an alt finger, but `CV` would become one.
+Qwerty ${\color{#21B04C}DC}$ (middle -> index) is a possible alt finger if we use standard fingering. If we used angle mod instead, it wouldn’t be an alt finger, but `CV` would become one.
 
-Qwerty ${color{#21B04C}FG}$ is identical to ${color{#21B04C}JH}$, and so are ${color{#21B04C}FV}$ and ${color{#21B04C}JN}$.
+Qwerty ${\color{#21B04C}FG}$ is identical to ${\color{#21B04C}JH}$, and so are ${\color{#21B04C}FV}$ and ${\color{#21B04C}JN}$.
 
 Anyway, if we have a common index finger SFB in our layout of choice, we can turn it into a comfortable alt finger by placing it in one of the lines above.
 
