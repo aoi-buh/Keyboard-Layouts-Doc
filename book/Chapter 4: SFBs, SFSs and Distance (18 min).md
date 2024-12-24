@@ -7,13 +7,13 @@
 
 <table>
 <tr>
-    <td><pre>
- ┌┬┬─┬┐
- decade
-    </pre></td><td>
+<td><pre>
+┌┬┬─┬┐
+decade
+</pre></td><td>
 	<p>So, this word contains three SFBs: <strong>DE</strong>, <strong>EC</strong> and <strong>DE</strong> again. This is an extreme example, as five out of six letters are typed with one finger!</p>
 	<p><strong>SFBs are dependent on which letters are sharing a column</strong> For example, Qwerty’s **EDC** column is very poor, as it leads to lots of SFBs.</p>
-    </td>
+</td>
 </tr>
 </table>
 
@@ -27,7 +27,7 @@ Another thing to keep in mind is that **lowering SFBs past a certain point will 
 
 ## 4.2. Calculating the distance between two keys
 
-Let’s say we want to know the distance for Qwerty `RG` (we are using Qwerty as a method to refer to the different keys on the keyboard):
+Let’s say we want to know the distance for Qwerty ${\color{#ED1B23}RG}$ (we are using Qwerty as a method to refer to the different keys on the keyboard):
 
 <img src="../assets/chapter4/qwerty rg distance.png" alt="*Qwerty RG distance*">
 
@@ -35,7 +35,7 @@ We can obtain the length of the red line by using [Pythagoras' theorem](https://
 
 **On a row stagger keyboard, the top row is horizontally shifted 0.25 units in relation to the home row, and the bottom row is shifted 0.5 units.** This makes the horizontal distance between the top row and bottom row to be 0.75 units. As for vertical distance, the top and the bottom row are each 1 unit away from the home row.
 
-In our Qwerty `RG` example, the vertical distance is 1U and the horizontal distance is 1.25U (1U from `G` to `F`, and 0.25U from `F` to `R`). Knowing this, we can use Pythagoras to determine the distance between the two keys. We have to square both the horizontal and vertical distances, and then square root the sum:
+In our Qwerty ${\color{#ED1B23}RG}$ example, the vertical distance is 1U and the horizontal distance is 1.25U (1U from `G` to `F`, and 0.25U from `F` to `R`). Knowing this, we can use Pythagoras to determine the distance between the two keys. We have to square both the horizontal and vertical distances, and then square root the sum:
 
 $c=\sqrt{a^2+b^2}=\sqrt{1.25^2+1^2}=1.60U$ `RG` is a 1.6U SFB
 
@@ -51,11 +51,11 @@ $c=\sqrt{0.25^2+2^2}=2.02U$ `VT` is a 2.02U SFB
 
 Using the method explained above, we will now list the distance for the different SFBs. In this section we look at either 1U or 2U ones. In the following section we check the rest.
 
-**If the two keys that form a SFB are on adjacent keys, then it will be around 1U.** In the image below, Qwerty `FG` is exactly 1U, `FR` is 1.03U, and `FV` is 1.12U:
+**If the two keys that form a SFB are on adjacent keys, then it will be around 1U.** In the image below, Qwerty ${\color{#FFF200}FG}$ is exactly 1U, ${\color{#FFF200}FR}$ is 1.03U, and ${\color{#FFF200}FV}$ is 1.12U:
 
 <img src="../assets/chapter4/qwerty fg fr fv.png" alt="*Qwerty FG FR FV*">
 
-**If one of the keys is on the bottom row and the other on the top row, then the SFB will be around 2U.** In this case, our finger has to jump over the home row to go from one key to the other. Below, Qwerty `VT` & `NU` are 2.02U, while `VR` & `NY` are 2.14U:
+**If one of the keys is on the bottom row and the other on the top row, then the SFB will be around 2U.** In this case, our finger has to jump over the home row to go from one key to the other. Below, Qwerty ${\color{#ED1B23}VT}$ & ${\color{#ED1B23}NU}$ are 2.02U, while ${\color{#870014}VR}$ & ${\color{#870014}NY}$ are 2.14U:
 
 <img src="../assets/chapter4/qwerty 2u distance.png" alt="*Qwerty 2u distances*">
 
@@ -94,29 +94,25 @@ The `M_Y` SFS is the worst of both worlds. Firstly, our right index finger must 
 **Qwerty is unfortunately full of words that are typed with just two fingers.** For example, the word `burn` is typed by alternating both index fingers. In the image below, the top line shows letters pressed by the **left index**. Bottom for **right index**:
 
 <table>
-<tr>
-    <td><pre>
+<tr><td><pre>
 ┌─┐
 burn
- └─┘
-    </pre></td><td>
+└─┘
+</pre></td><td>
     So, this word contains two SFSs. Not only that, but the <strong>B_R</strong> SFS on the left index is 2.66U, and <strong>U_N</strong> on the right index is 2.02U. Try typing it.
-    </td>
-</tr>
+</td></tr>
 </table>
 
 Another example would be `thought` on Qwerty. Same line/finger pairings as above:
 
 <table>
-<tr>
-    <td><pre>
+<tr><td><pre>
 ┌───┬─┐
 thought
  └─┴─┘
-    </pre></td><td>
+</pre></td><td>
 	Here, <strong>T_G</strong> is a same finger skip-3-gram (i.e. there are three letters separating <strong>T</strong> and <strong>G</strong>). Therefore, that <strong>SFS</strong> will be barely noticeable, especially when compared to <strong>H_U</strong>, <strong>U_H</strong> or <strong>G_T</strong>, all of which are <strong>SF</strong> skip-1-grams. This time they are only 1U, though. Try typing it.
-    </td>
-</tr>
+</td></tr>
 </table>
 
 So, Qwerty performs terribly at SFSs. **The benefit of optimizing SFSs is that each word will be spread across more fingers. Moreover, when we do have to use any particular finger almost consecutively, the distance between the two keys will be minimal.**
@@ -128,28 +124,24 @@ For the longest time, distance used to be measured as “distance off the home r
 Take the word `refer` on Qwerty for example:
 
 <table>
-<tr>
-    <td><pre>
+<tr><td><pre>
 ┌─┬─┐
 refer
  └─┘
-    </pre></td><td>
+</pre></td><td>
 	If you quickly type this word, you will find that pressing the second <strong>E</strong> requires no movement (despite <strong>E</strong> being on the top row) as our left middle finger was already over it. Meanwhile, even though <strong>F</strong> is on the home row, pressing it implicates moving our left index downward.
-    </td>
-</tr>
+</td></tr>
 </table>
 
 This goes to show that, **to accurately measure the distance it will take to press a key, we need to keep track of which key that finger had pressed beforehand.** This does not only apply within a given word, but also to the connections between words. For example, imagine typing the word `when` followed by `you` on Qwerty:
 
 <table>
-<tr>
-    <td><pre>
+<tr><td><pre>
  ┌─┬─┬─┐
 when you
-    </pre></td><td>
+</pre></td><td>
 	The line shows letters pressed by the <strong>right index</strong>. The letter <strong>N</strong> in when is followed by a space, and right after our right index has to jump over the home row to press <strong>Y</strong>. Therefore, <strong>N_Y</strong> is an inter-word (i.e. in between words) <strong>SFS</strong>, while <strong>H_N</strong> or <strong>Y_U</strong> are intra-word (i.e. within a word) SFSs.
-    </td>
-</tr>
+</td></tr>
 </table>
 
 With all this in mind, **the simplest way to measure how a layout performs at SFB distance is to scale each SFB by its distance.** For example, if the frequency of a SFB is 0.4% and the distance is 1.2, we simply multiply 0.4 by 1.2. Then we do the same for all the remaining SFBs in the layout. **Same applies to the SFSs, to get the SFS distance.**
@@ -281,16 +273,16 @@ Now take the word `amendment` instead:
 
 <table>
 <tr>
-    <td>
-    <pre>
- ┌─┬─┬─┐
+<td>
+<pre>
+┌─┬─┬─┐
 amendment
-  └─┴─┘
-    </pre>
-    </td>
-    <td>
-	Here there are two lines, for two fingers. Furthermore, there is always a one letter gap before a finger is utilized again, indicating SFSs. So, this would be a heavy SFS word.
-    </td>
+└─┴─┘
+</pre>
+</td>
+<td>
+Here there are two lines, for two fingers. Furthermore, there is always a one letter gap before a finger is utilized again, indicating SFSs. So, this would be a heavy SFS word.
+</td>
 </tr>
 </table>
 
@@ -306,7 +298,7 @@ If a finger only presses a single letter in a word, no line will be shown, as SF
 
 ### 4.10.1. Heavy SFS words on Qwerty
 
-**Note:** SFSs that involve pressing the same key twice require no movement, as our finger is already over said letter after the first press. An example of such a SFS would be `E_E```.
+**Note:** SFSs that involve pressing the same key twice require no movement, as our finger is already over said letter after the first press. An example of such a SFS would be `E_E4.
 
 Words typed mostly by alternating two fingers:
 
@@ -346,45 +338,45 @@ Words typed mostly by alternating two fingers:
 Words with all their SFSs on one finger:
 
 <table>
-	<tr><td><pre>
+<tr><td><pre>
 ┌─┬─┐
 first
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 right
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 money
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 enough
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 river
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 youth
-	</pre></td>
-	</tr><tr><td><pre>
+</pre></td>
+</tr><tr><td><pre>
 ┌─┬─┐
 mouth
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┬─┐
 journey
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 fiber
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 honey
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┐
 rover
-	</pre></td><td><pre>
+</pre></td><td><pre>
 ┌─┬─┬─┐
 fighter
-	</pre></td>
-	</tr>
+</pre></td>
+</tr>
 </table>
 
 ### 4.10.2. heavy sfb words on qwerty
