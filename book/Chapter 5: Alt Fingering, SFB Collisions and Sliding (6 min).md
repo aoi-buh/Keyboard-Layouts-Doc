@@ -6,7 +6,7 @@
 
 <img src="../assets/chapter5/qwerty ce.png" alt="*Qwerty ce*">
 
-Instead, to remove the aforementioned SFBs we can alt finger ${\color{#ED1B23}CE}$/${\color{#ED1B23}EC}$ by pressing `C` with the index finger (rather than the middle). This is what many advanced Qwerty users do.
+Instead, to remove the aforementioned SFBs we can alt finger ${\color{#ED1B23}CE}$ / ${\color{#ED1B23}EC}$ by pressing `C` with the index finger (rather than the middle). This is what many advanced Qwerty users do.
 
 ## 5.2. SFB collisions
 
@@ -57,8 +57,8 @@ Anyway, if we have a common index finger SFB in our layout of choice, we can tur
 For example, compare the "vertical alt fingers" on row stagger vs matrix:
 
 <span>
-	<img src="../assets/chapter5/rowstag vertical alts.png" alt="*Rowstag vertical alts*">
-	<img src="../assets/chapter5/ortho vertical alts.png" alt="*Ortho vertical alts*">
+	<img src="../assets/chapter5/rowstag vertical alts.png" alt="*Rowstag vertical alts*" style="width: 50%;">
+	<img src="../assets/chapter5/ortho vertical alts.png" alt="*Ortho vertical alts*" style="width: 50%;">
 </span>
 
 The fact that on row stagger each row is a bit shifted to the side in relation to one another is what made the alt fingers above comfortable. It allowed us to use the middle finger to press one of the index finger keys without our fingers feeling cramped.
