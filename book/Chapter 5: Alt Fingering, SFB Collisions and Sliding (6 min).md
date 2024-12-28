@@ -1,4 +1,5 @@
-# 5. Alt fingering, SFB collisions and sliding (6 min)
+
+# **5. Alt fingering, SFB collisions and sliding (6 min)**
 
 ## 5.1. Alt fingering
 
