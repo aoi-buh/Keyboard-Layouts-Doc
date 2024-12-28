@@ -6,11 +6,8 @@
 There are four stats that highlight what hand motions are most common in a particular layout. These are calculated based on trigrams (three key sequences):
 
 - **ALTERNATE:** pressing one key with one hand, then one with the other, then back to the first (1, 1, 1). In other words, a pure alternating trigram. E.g: Qwerty `AND`.
-- 
 - **ROLL:** pressing two keys with one hand, and a third key with the other (2, 1 or 1, 2). In other words, a 2 key roll following or preceding a hand change. E.g: Qwerty `OUR`. Note that the two keys must be pressed by different fingers.
-- 
 - **3ROLL** (also called "onehand"): a one-handed trigram where all keys go in the same direction. In other words, a trigram roll. For example, Qwerty `WER`.
-- 
 - **REDIRECT:** a one-handed trigram in which the direction changes. For example, Qwerty `SAD` is a redirect, as `SA` is outward while `AD` is inward. Whether redirects should be minimized or not is a matter of personal preference.
 
 The stats above are based on trigrams to avoid redirects being counted as rolls. For example, if we used bigrams to calculate the stats instead, sequences like `DFDFDF` could be labeled as multiple rolls, when it's really just a long one-handed sequence.
@@ -158,7 +155,7 @@ The table below shows how much each consonant favors one direction vs the other 
 
 * table data: monkeyracer
 
-We can see that **any layout that aims to minimize redirects will place the letter H with the vowels,** as H only combines with them in a single direction (ratio of 83 to 1!). On the other side of the spectrum, **placing R or T with the vowels will noticeably increase redirects,** as they combine with the vowels in both directions about equally.
+We can see that **any layout that aims to minimize redirects will place the letter `H` with the vowels,** as `H` only combines with them in a single direction (ratio of 83 to 1!). On the other side of the spectrum, **placing `R` or `T` with the vowels will noticeably increase redirects,** as they combine with the vowels in both directions about equally.
 
 ## 8.8. Common trigrams & redirects 
 
