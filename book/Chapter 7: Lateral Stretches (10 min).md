@@ -3,11 +3,11 @@
 
 ## 7.1. The center column
 
-**The index finger inner keys are usually referred to as the ${\color{#ED1B23}center}$ ${\color{#ED1B23}column}$.** These keys force us to shift our index finger sideways a bit in order to press them:
+**The index finger inner keys are usually referred to as the ${\color{#ED1B23}center\ column}$.** These keys force us to shift our index finger sideways a bit in order to press them:
 
 <img src="../assets/chapter7/matrix center column.png">
 
-Identifying the center column gets trickier on row stagger keyboards. Compared to matrix, the letter `I` is now shifted a bit to the left, while the letter `N` is shifted to the right. In other words, `N` and `I` are shifted toward each other, making them closer than on matrix. However, the opposite is true for the letters `E` and `V`, which are pushed further apart. Therefore, **despite the letter `V` technically not being on the center column, it effectively feels more like a center column key on row stagger than `N` does:**
+Identifying the center column gets trickier on row stagger keyboards. Compared to matrix, the letter ${\color{#2DCB70}I}$ is now shifted a bit to the left, while the letter ${\color{#2DCB70}N}$ is shifted to the right. In other words, ${\color{#2DCB70}N}$ and ${\color{#2DCB70}I}$ are shifted toward each other, making them closer than on matrix. However, the opposite is true for the letters ${\color{#ED1B23}E}$ and ${\color{#ED1B23}V}$, which are pushed further apart. Therefore, **despite the letter ${\color{#ED1B23}V}$ technically not being on the center column, it effectively feels more like a center column key on row stagger than ${\color{#2DCB70}N}$ does:**
 
 <img src="../assets/chapter7/rowstag center column.png">
 
@@ -25,11 +25,11 @@ The issue with trying to come up with a more specific LSB definition is that a b
 
 In any case, the following is a possible LSB definition:
 
-- **Adjacent finger bigrams where the horizontal distance is 2U or greater.** Usually, this involves pressing one key on the center column with the index finger, followed or preceded by another key with that hand’s middle finger (e.g. Qwerty `TE`, `GE`, `BE`...). Same applies to bigrams where we press one of the outer pinky keys followed or preceded by another key with that hand’s ring finger (e.g. Qwerty `'O`, `'L`...).
+- **Adjacent finger bigrams where the horizontal distance is 2U or greater.** Usually, this involves pressing one key on the center column with the index finger, followed or preceded by another key with that hand’s middle finger (e.g. Qwerty ${\color{#ED1B23}TE}$, ${\color{#ED1B23}GE}$, ${\color{#ED1B23}BE}$...). Same applies to bigrams where we press one of the outer pinky keys followed or preceded by another key with that hand’s ring finger (e.g. Qwerty ${\color{#ED1B23}'O}$, ${\color{#ED1B23}'L}$...).
 
 <img src="../assets/chapter7/lsb definition 1.png">
 
-- **Semi-adjacent finger bigrams where the horizontal distance is 3.5U or greater.** This applies to some ring-index bigrams where the keyboard row stagger pushes the keys rather far apart (e.g. `BW`, `BS`...):
+- **Semi-adjacent finger bigrams where the horizontal distance is 3.5U or greater.** This applies to some ring-index bigrams where the keyboard row stagger pushes the keys rather far apart (e.g. ${\color{#ED1B23}BW}$, ${\color{#ED1B23}BS}$...):
 
 <img src="../assets/chapter7/lsb definition 2.png">
 
@@ -49,7 +49,7 @@ Specifically, `W_R` is a common skip-1-gram in words like `were`, `world` or `wo
 
 On matrix keyboards the rows are perfectly aligned vertically, but on row stagger they are not. Therefore, some lateral stretches vary greatly in length depending on the keyboard:
 
-- The LSBs with the bigger discrepancy between row stagger and matrix are those where one key is on the bottom row and the other key is on the top row. These are 0.75U shorter/longer laterally on row stagger. For example, Qwerty CT:
+- The LSBs with the bigger discrepancy between row stagger and matrix are those where one key is on the bottom row and the other key is on the top row. These are 0.75U shorter/longer laterally on row stagger. For example, Qwerty `CT`:
 
 <span>
 	<img src="../assets/chapter7/qwerty rowstag ct.png">
@@ -108,6 +108,7 @@ If we use a lateral distance of 3.5U as the threshold for what counts as a semi-
 </tr>
 </table>
 
+***TODO***
 Lastly, although the bigrams below would technically not qualify as adjacent finger LSBs on row stagger (the lateral distance is 1.75U, just short of 2U) they feel noticeably more “stretchy” on row stagger than on matrix:
 
 
@@ -117,6 +118,7 @@ Lastly, although the bigrams below would technically not qualify as adjacent fin
 
 #### Same length
 
+***TODO***
 Firstly, stretches that do not change in length regardless of the type of keyboard we use:
 
 
@@ -226,9 +228,9 @@ Now center column use is a bit higher, but in exchange each pinky has only one c
 
 ### 7.6.2. Strategically avoiding stretches
 
-**If we do not mind center column use as long as large stretches are avoided, all we have to do is place rare bigrams where the big stretches would be.** A layout that does this is ${\color{blue}Wave\ eo}$ (angle modded). Note that in this layout the letter `M` should be pressed with the middle finger (there is a `DTMK` column). In any case, the red lines below show the longest stretches on row stagger.
+**If we do not mind center column use as long as large stretches are avoided, all we have to do is place rare bigrams where the big stretches would be.** A layout that does this is **Wave eo** (angle modded). Note that in this layout the letter `M` should be pressed with the middle finger (there is a `DTMK` column). In any case, the red lines below show the longest stretches on row stagger.
 
-We can see that those stretches are very rare bigrams on Wave eo, meaning we would rarely have to to perform those stretches:
+We can see that those stretches are very rare bigrams on **Wave eo**, meaning we would rarely have to to perform those stretches:
 
 <img src="../assets/chapter7/wave eo 1.png">
 
