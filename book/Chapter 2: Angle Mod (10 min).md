@@ -1,5 +1,5 @@
 
-# Chapter 2: Angle mod (10 min)
+# **Chapter 2: Angle mod (10 min)**
 
 ## 2.1. Improved typing technique
 

@@ -1,5 +1,5 @@
 
-# 7. Lateral stretches (10 min)
+# **7. Lateral stretches (10 min)**
 
 ## 7.1. The center column
 

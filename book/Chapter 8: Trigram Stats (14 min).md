@@ -1,5 +1,5 @@
 
-# 8. Trigram stats (14 min)
+# **8. Trigram stats (14 min)**
 
 ## 8.1. Alts, rolls, 3rolls & redir
 

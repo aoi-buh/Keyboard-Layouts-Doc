@@ -1,4 +1,5 @@
-# 6. Scissors (9 min)
+
+# **6. Scissors (9 min)**
 
 ## 6.1. Row skips vs scissors
 

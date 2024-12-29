@@ -1,5 +1,5 @@
 
-# Chapter 3: English data (5 min)
+# **Chapter 3: English data (5 min)**
 
 To understand where the stats for a layout are coming from, first we need to be familiar with the letter, bigram and trigram frequency of the language the layout is for. Most layouts were designed for English, so that is what we will be looking at.
 

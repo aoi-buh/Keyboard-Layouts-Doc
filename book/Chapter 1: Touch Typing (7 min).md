@@ -1,5 +1,5 @@
 
-# Chapter 1: Touch typing (7 min)
+# **Chapter 1: Touch typing (7 min)**
 
 ## 1.1. Touch typing
 

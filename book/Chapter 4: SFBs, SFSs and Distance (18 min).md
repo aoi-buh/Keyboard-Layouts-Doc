@@ -1,5 +1,5 @@
 
-# Chapter 4: SFBs, SFSs and distance (18 min)
+# **Chapter 4: SFBs, SFSs and distance (18 min)**
 
 ## 4.1. Same finger bigrams (SFBs)
 
