@@ -1,9 +1,5 @@
----
-layout: default
-title: "Chapter 1"
----
 
-# Preface
+# **Preface**
 
 ## Issues with the Qwerty layout
 
